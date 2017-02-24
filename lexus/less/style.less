@@ -1,35 +1,162 @@
-div{outline: 1px solid gray}
-html,body{height:100%;}
-.fr{float:right; position: relative;}
-.fl{float: left; position: relative;}
-//  display: inline-block;
-//  *display: inline;
-//  *zoom:1;
-//--options
-
-// - nav 기본 width:180px;
-.header{//렉서스 로고
-  width:180px;
-}
-.main_nav{
-  top:16px;//header height만큼
-  right:180px;
-  width:180px;
-  height:100%;
-  background-color: tomato;
-}
-.main_nav .nav{
-  background-color:#ccc;
-}
-//section margin-left:180px;공간확보 나머지 전부float:left;
-.section{
-  margin-left:180px;
-  width: 100%;height: 100%;
-  background-image: url('../image/winter_yeonny_main.jpg');
-  background-repeat: no-repeat;background-size: cover;//중심잡기 이미지
-}
-.aside{display: none;}
-.footer{
-  top:220px;
-  width:180px
-}
+//
+// .fr{float:right; position: relative;}
+// .fl{float: left; position: relative;}
+// //  display: inline-block;
+// //  *display: inline;
+// //  *zoom:1;
+// //--options
+//
+// // - nav 기본 width:180px;
+// // section margin-left:180px; 공간차지
+// .header{//렉서스 로고
+//   width:180px;z-index: 1;
+//   height: 90px;
+//   cite{
+//     font-size:0;
+//     text-indent:-9999px;
+//   }
+//  img{
+//    float: left;
+//    padding:36px 0 0 30px;
+//    width:114px;height:20px;
+//  }
+// }
+// .main_nav{
+//   right:180px;
+//   width:180px;
+//   height:80%;
+//   background-color:#000;
+// }
+// .main_nav .nav {
+//   padding:90px 0 0 30px;
+//   width: 150px;height:240px;
+//   background-color:#000;
+//   div{
+//     height: 100%;
+//     li{
+//       display: inline-block;
+//       height: 20px;
+//       div{
+//         outline:0;
+//       }
+//       a{
+//         display: block;
+//         width:150px;height:24px;
+//         padding-top:6px;
+//           cite{
+//             color:#ccc;
+//             width: 100%;
+//             font-size:15px;
+//             font-family:@main-font;
+//             line-height: 30px;
+//             font-weight:900;
+//             -webkit-font-smoothing:antialiased;
+//           }
+//         &:hover{
+//           color: #fff;
+//         }
+//       }
+//     }
+//   }
+// }
+// // depth2
+// .main_nav .nav li ul{
+//   display: none;
+// }
+// //section margin-left:180px;공간확보 나머지 전부float:left;
+// .section{
+//   width: 100%;height: 100%;
+//   div{
+//     height:0;
+//       a{
+//         font-size:0;
+//         text-indent: -9999px;
+//       }
+//       li{
+//         display: none;
+//         &:first-child{
+//          display: block;
+//          a{
+//            img{
+//              position: relative;z-index:1;
+//              left:-120px;top:20px;
+//            }
+//
+//           }
+//           >img{
+//            width: 0;height:0;
+//             &:first-child{
+//               width: 1920px;height: 1271px;top: -321px;left: 0px;
+//             position: absolute;
+//             z-index:-1;
+//             }
+//           }
+//         }
+//       }
+//     }
+// }
+// .aside{display: none;}
+// .footer{
+//   padding:30px 0 0 30px;
+//   bottom:300px;//조정하기
+//   width: 150px;height:270px;
+//   background-color:#000;
+//   div{
+//     width:150px;
+//   }
+//   .benefit{
+//     width:150px;height:150px;
+//     a{
+//       display: block;
+//       padding-top:10px;
+//       cite{
+//         color:#666;
+//         font-size:12px;
+//         font-weight: 900;
+//         line-height:20px;
+//       }
+//     }
+//   }
+//   .sns-btns{
+//     width: 133px;height:21px;
+//     padding:0 0 25px 17px;
+//     h2{
+//       font-size: 0;
+//       text-indent: -999px;
+//       }
+//     li{
+//       display: inline-block;
+//       width:17px;height:17px;
+//       a{
+//         display: block;
+//           span{
+//             width:17px;height:17px;
+//             font-size:0;
+//             text-indent: -9999px;
+//           }
+//        }
+//     }
+//   }
+//   .foot-cont{
+//     border-top:1px solid #666;
+//     width: 150px;height:30px;
+//     li{
+//       display: inline-block;
+//       a{
+//         font-size:9px;
+//         color:#666;
+//         font-weight:600;
+//       }
+//     }
+//     address{
+//       font-size:9px;
+//       letter-spacing:-0.6px;
+//       color:#666;
+//       position: relative;bottom:65px;
+//       width: 180px; height:22px;
+//       text-rendering:optimizeLegibility;
+//       white-space:-1.5px;
+//
+//     }
+//   }
+// }

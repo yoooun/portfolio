@@ -1,0 +1,148 @@
+// div{outline: 1px solid gray;}
+
+// nav-stlye.less는
+//<header>에 180px넓이를 주고 페이지공통 반복부분만을 지정한다
+// 포지션은 픽스드로 맞추고
+
+// --options--
+.fl{float: left;}
+.fr{float: right;}
+.pf{position:fixed;}
+.pr{position:relative;}
+.pa{position: absolute;}
+
+//--header--
+header{
+  width: 180px;height:100%;
+  background-color: #000;
+  div{
+    h1{
+      font-size: 0;
+      text-indent: -9999px;
+    }
+    a{
+      width: 140px; height:52px;
+      img{
+        padding:36px 0 0 30px;
+        width: 114px;height: 20px;
+      }
+    }
+  }
+}
+
+nav{
+  top:90px;left:30px;
+  div{
+    width: 150px;
+    height: 240px;
+    li{
+      height:30px;
+      a{
+        h2 {
+          text-transform: uppercase;
+          color:#ccc;
+          font-family:@main-font;
+          font-size:15px;line-height:30px;
+          font-weight:900;
+          -webkit-font-smoothing:antialiased;
+          &:hover{
+            color:#fff;
+            }
+          }
+           span{
+             visibility: hidden;
+             width:0;height:2px;
+             background-color:#fff;
+           }
+          &:hover{
+            span{
+              visibility: visible;
+              width:150px;
+            }
+          }
+        }
+      // li안// depth2 시작
+
+      div{
+        display: none;
+      }
+    }
+
+    // li밖 // depth2 끝
+  }
+}
+
+footer{
+  bottom:21px; left:30px;
+  width:150px;
+  .quick-menu{
+    padding-bottom:21px;
+    li{
+      a{
+        height:30px;
+        cite{
+          font-size:15px;line-height:30px;
+          font-weight:900;
+          -webkit-font-smoothing:antialiased;
+          color: #444;
+          font-size:12px;
+          &:hover{
+            color:#fff;
+          }
+        }
+      }
+    }
+  }
+}
+ .sns-btns{
+   padding-bottom:41px;
+   h2{
+     font-size:0;z-index:-999px;
+   }
+   ul{
+     li{
+       display: inline-block;
+       height: 21px;
+       a{
+         span{
+           font-size:0;text-indent: -9999px;
+           &:hover{
+             color:#fff;
+           }
+         }
+       }
+     }
+   }
+ }
+ .foot-cont{
+   border-top:1px solid #444;
+   padding-top: 10px;
+   li{
+
+     display: inline-block;
+     a{
+       font-family: @main-font;
+       font-weight:900;
+       font-size:9px;s
+       letter-spacing:0.2px;
+       word-spacing: 1.5px;
+       &:hover{
+         color:#fff;
+       }
+     }
+   }
+   address{
+     position: absolute;bottom:-10px;
+     span{
+       font-size:9px;
+       letter-spacing:-0.6px;
+       color:#444;
+       position: relative;bottom:65px;
+       width: 180px; height:22px;
+       text-rendering:optimizeLegibility;
+       white-space:-1.5px;
+     }
+   }
+ }
+
+//index-style로 넘어갈 부분
