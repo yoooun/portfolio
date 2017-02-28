@@ -1,0 +1,35 @@
+.smoothfont(){
+  text-transform: uppercase;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  letter-spacing:0.2px;
+  white-space:1.5px;
+}
+.tightfont(){
+  letter-spacing:-0.6px;
+  text-rendering:optimizeLegibility;
+  white-space:-1.5px;
+}
+.ibox(){
+  position: relative;
+  display: inline-block;
+  width:15px;height:10px;
+  background-color:#fff;
+}
+.ihover(){
+  &:hover{
+    outline:0;
+      i{
+        visibility: visible;
+        width:150px;
+      }
+    }
+      i{
+        visibility: hidden;
+        display: block;
+        width:1px;height:2px;
+        background-color:#fff;
+        transition:.2s;
+         -webkit-transition:.2s; /* For Safari 3.1 to 6.0 */
+      }
+}
