@@ -940,6 +940,93 @@ aside div li {
   word-spacing: 1.5px;
   font-weight: bold;
 }
+#concept .concept_1 {
+  position: relative;
+  overflow: hidden;
+}
+#concept .concept_1 figure.con_cont_1 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#concept .concept_1 figure.con_cont_1 p {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+#concept .concept_1 figure.con_cont_1 p img {
+  width: 1663px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -180px;
+}
+#concept .concept_2 {
+  width: 6400px;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+#concept .concept_2 figure.con_cont_2 {
+  width: 1600px;
+  height: 710px;
+  overflow: hidden;
+}
+#concept .concept_2 figure.con_cont_2 p img {
+  position: absolute;
+  left: -40px;
+}
+#concept .concept_2 .navi_tabs_wrap {
+  padding-bottom: 35px;
+  height: 37px;
+}
+#concept .concept_2 .navi_tabs_wrap ul {
+  width: 1093px;
+  margin: 0 auto;
+}
+#concept .concept_2 .navi_tabs_wrap ul li {
+  height: 37px;
+  padding-top: 20px;
+}
+#concept .concept_2 .navi_tabs_wrap ul li p {
+  padding-top: 24px;
+}
+#concept .concept_3 {
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+}
+#concept .concept_3 figure.con_cont_3 p {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+#concept .concept_3 figure.con_cont_3 p img {
+  position: absolute;
+  left: 50%;
+  margin-left: -800px;
+}
+#concept .concept_3 .con-cont_txt_3 h3 {
+  position: absolute;
+  top: 129px;
+  left: 50%;
+  margin-left: -372.5px;
+}
+#concept .concept_3 .con-cont_txt_3 p {
+  position: absolute;
+  top: 189px;
+  left: 50%;
+  margin-left: -244.5px;
+}
 #certi .certi_1 {
   position: relative;
   width: 100%;
@@ -1683,6 +1770,195 @@ aside div li {
 }
 #lxko .lxko_2 .lxko_2_cont ul li dl dd table tbody tr td span:first-child {
   padding-top: 0;
+}
+#lxko .lxko_3 {
+  height: 330px;
+}
+#lxko .lxko_3 h2 {
+  background-color: #000;
+  position: relative;
+}
+#lxko .lxko_3 h2 img {
+  width: 1220px;
+  position: relative;
+  left: 50%;
+  margin-left: -610px;
+}
+#lxko .lxko_3 .lxko_3_cont {
+  outline: 1px #F00 solid;
+  height: auto;
+  width: 720px;
+  margin: 0 auto;
+  padding: 60px 0 150px;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set {
+  height: auto;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set h3 {
+  padding: 30px 0 15px;
+  border-top: 4px #111 solid;
+  color: #111;
+  font-size: 15px;
+  font-weight: bold;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list {
+  height: auto;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl {
+  outline: 1px #F00 solid;
+  position: relative;
+  width: 165px;
+  float: left;
+  margin-right: 20px;
+  font-size: 0.75em;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl dt {
+  margin-top: 180px;
+  padding: 21px 0 18px;
+  font: 14px 'SDGothicNeo1R';
+  font-weight: bold;
+  color: #111;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl dd {
+  height: 50px;
+  padding-top: 10px;
+  border-top: 1px #CCC solid;
+  line-height: 1.2;
+  color: #666;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .addr {
+  letter-spacing: -0.5px;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p:first-child {
+  padding-top: 0;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p {
+  padding-top: 9px;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p span a {
+  font-size: 12px;
+  color: #333;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .web {
+  font-size: 12px;
+  color: #333;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .pic {
+  height: 180px;
+  padding-top: 0;
+  border-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list .lact_col {
+  margin-right: 0;
+}
+#society .society_1 {
+  height: 360px;
+  margin-bottom: 60px;
+}
+#society .society_1 h2 {
+  background-color: #000;
+}
+#society .society_1 h2 img {
+  width: 1220px;
+  position: relative;
+  left: 50%;
+  margin-left: -610px;
+}
+#society .society_cont {
+  height: auto;
+  text-align: center;
+}
+#society .society_cont .so_comm {
+  margin-bottom: 30px;
+}
+#society .society_cont .so_co_01 {
+  height: auto;
+}
+#society .society_cont .so_co_02 {
+  height: auto;
+}
+#society .society_cont .so_co_03 {
+  height: auto;
+}
+#society .society_cont .so_co_04 {
+  height: auto;
+}
+#society .society_cont .so_co_05 {
+  height: auto;
+}
+#society .society_cont .so_co_06 {
+  height: auto;
+}
+#society .society_cont .so_co_07 {
+  height: auto;
+}
+#society .society_cont .so_co_08 {
+  height: auto;
+}
+#society .society_cont .so_co_09 {
+  height: auto;
+}
+#society .society_cont .so_co_10 {
+  height: auto;
+}
+#society .society_cont .so_co_11 {
+  height: auto;
+}
+#society .society_cont .so_co_12 {
+  height: auto;
+}
+#society .society_cont .so_co_13 {
+  height: auto;
+}
+#news .news_title_wrap {
+  outline: 1px #F00 solid;
+  height: auto;
+  padding: 40px 0 50px;
+  margin: 0 60px;
+}
+#news .news_title_wrap p {
+  padding-bottom: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+#news .news_title_wrap p span {
+  font-size: 13px;
+}
+#news .news_title_wrap h2 {
+  font-size: 34px;
+  color: #222;
+  font-family: 'Nobel-Regular', 'SDGothicNeo1R';
+  font-weight: bold;
+}
+#news .news_cont {
+  padding: 0 60px 60px;
+  height: auto;
+}
+#news .news_cont .sch_form_wrap {
+  height: 58px;
+  position: relative;
+  outline: 1px #F00 solid;
+}
+#news .news_cont .sch_form_wrap .inner-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#news .news_cont .sch_form_wrap ul.pic_list_wrap {
+  outline: 1px green solid;
+}
+#news .news_cont .sch_form_wrap ul.pic_list_wrap li {
+  outline: 1px blue solid;
+  width: 21.5%;
+  margin-right: 4.3%;
+}
+#news .news_cont .sch_form_wrap ul.pic_list_wrap li a {
+  width: 300px;
+  color: #222;
+  display: block;
 }
 .fl {
   float: left;
