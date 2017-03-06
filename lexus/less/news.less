@@ -1,6 +1,5 @@
 #news{
   .news_title_wrap{
-    outline:1px #F00 solid;
     height:auto;
     padding:40px 0 50px;
     margin:0 60px;
@@ -25,24 +24,97 @@
     .sch_form_wrap{
       height:58px;
       position:relative;
-      outline:1px #F00 solid;
+      background-color:pink;
       .inner-wrap{
         position:absolute;
         top:0;
-        left:0;
-      }
-      ul.pic_list_wrap{
-        outline:1px green solid;
-        li{
-          outline:1px blue solid;
-          width:21.5%;
-          margin-right:4.3%;
-          a{
-            width:300px;
-            color:#222;
-            display:block;
+        right:0;
+        select{
+          width:90px;
+          height:30px;
+          border:none;
+          border-bottom:2px #111 solid;
+          background-image: url('../images/company/news/news_select.png');
+          background-size:8px 5px;
+          background-repeat: no-repeat;
+        }
+        .input_wrap{
+          display:inline-block;
+          border-bottom:2px #111 solid;
+          width:180px;
+          margin-left:24px;
+          label{
+            display:none;
+          }
+          input{
+            width:150px;
+            border:none;
           }
         }
+      }
+    }
+
+    ul.pic_list_wrap{
+      li{
+        width:21.5%;
+        height:360px;
+        margin-right:4.3%;
+        float:left;
+        display:inline-block;
+        a{
+          width:300px;
+          color:#222;
+          display:block;
+          span{
+            position:relative;
+            img{
+              width:100%;
+            }
+          }
+          p.text_wrap{
+            letter-spacing:0.2px;
+            word-spacing:1.5px;
+            padding:18px 0 5px;
+            .text{
+              width:100%;
+              display:block;
+              text-overflow:ellipsis;
+              white-space:nowrap;
+              overflow:hidden;
+              padding-bottom:13px;
+              font-weight:bold;
+              font-size:14px;
+              line-height:1.4;
+              font-weight:bold;
+            }
+            .sub_text{
+              display:block;
+              padding-bottom:18px;
+              font-size:0.75em;
+              line-height:1.6;
+            }
+            .data{
+              font-size:10px;
+            }
+          }
+        }
+      }
+      li.last_col{
+        margin-right:0;
+      }
+    }
+
+    p{
+      a{
+        display:inline-block;
+        width:100%;
+        height:60px;
+        background-color:#2a2a2a;
+        color:#FFF;
+        line-height:60px;
+        text-align:center;
+        font-size:16px;
+        font-weight:bold;
       }
     }
   }
