@@ -1891,9 +1891,9 @@ aside div li {
 #news .news_cont .sch_form_wrap {
   height: 58px;
   position: relative;
-  background-color: pink;
 }
 #news .news_cont .sch_form_wrap .inner-wrap {
+  height: 30px;
   position: absolute;
   top: 0;
   right: 0;
@@ -1903,22 +1903,22 @@ aside div li {
   height: 30px;
   border: none;
   border-bottom: 2px #111 solid;
-  background-image: url('../images/company/news/news_select.png');
-  background-size: 8px 5px;
-  background-repeat: no-repeat;
 }
 #news .news_cont .sch_form_wrap .inner-wrap .input_wrap {
-  display: inline-block;
   border-bottom: 2px #111 solid;
+  display: inline-block;
   width: 180px;
+  height: 30px;
   margin-left: 24px;
 }
 #news .news_cont .sch_form_wrap .inner-wrap .input_wrap label {
   display: none;
 }
 #news .news_cont .sch_form_wrap .inner-wrap .input_wrap input {
-  width: 150px;
+  width: 120px;
+  height: 28px;
   border: none;
+  display: inline-block;
 }
 #news .news_cont ul.pic_list_wrap li {
   width: 21.5%;
