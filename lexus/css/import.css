@@ -940,6 +940,22 @@ aside div li {
   word-spacing: 1.5px;
   font-weight: bold;
 }
+.model_ls600h .model_ls600h_4 .model_ls600h_4_title {
+  outline: 1px green solid;
+  padding-top: 80px;
+  margin: 0 60px;
+  height: auto;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_title h2 {
+  font-size: 30px;
+  color: #222;
+  font-weight: bold;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_title p {
+  padding: 21px 0 18px;
+  font-size: 0.75em;
+  color: #666;
+}
 #concept .concept_1 {
   position: relative;
   overflow: hidden;
