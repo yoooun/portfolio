@@ -1655,14 +1655,18 @@ aside div li {
   margin-left: -610px;
 }
 #lxko .lxko_2 .lxko_2_cont {
-  outline: 1px pink solid;
   padding: 60px 0;
   width: 720px;
-  height: auto;
+  height: 1814px;
   margin: 0 auto;
+}
+#lxko .lxko_2 .lxko_2_cont ul li:first-child {
+  margin-right: 20px;
 }
 #lxko .lxko_2 .lxko_2_cont ul li {
   width: 350px;
+  float: left;
+  display: inline-block;
 }
 #lxko .lxko_2 .lxko_2_cont ul li dl dt {
   padding-bottom: 10px;
@@ -1724,7 +1728,7 @@ aside div li {
   padding-top: 0;
 }
 #lxko .lxko_3 {
-  height: 330px;
+  height: auto;
 }
 #lxko .lxko_3 h2 {
   background-color: #000;
@@ -1737,74 +1741,83 @@ aside div li {
   margin-left: -610px;
 }
 #lxko .lxko_3 .lxko_3_cont {
-  outline: 1px #F00 solid;
   height: auto;
   width: 720px;
   margin: 0 auto;
   padding: 60px 0 150px;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set {
+#lxko .lxko_3 .lxko_3_cont > div {
+  vertical-align: top;
+  width: 100%;
   height: auto;
+  display: inline-block;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set h3 {
-  padding: 30px 0 15px;
+#lxko .lxko_3 .lxko_3_cont > div.half {
+  width: 48.5%;
+}
+#lxko .lxko_3 .lxko_3_cont > div.mr_20 {
+  margin-right: 14px;
+}
+#lxko .lxko_3 .lxko_3_cont > div cite {
   border-top: 4px #111 solid;
-  color: #111;
+  width: 100%;
   font-size: 15px;
   font-weight: bold;
+  display: inline-block;
+  padding: 30px 0 15px;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list {
+#lxko .lxko_3 .lxko_3_cont > div cite i {
+  background-image: url('../images/company/lxko/dealer_line.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 2px;
+  height: 15px;
+  margin: 0 5px;
+  vertical-align: top;
+}
+#lxko .lxko_3 .lxko_3_cont > div ul li {
+  display: inline-block;
+  width: 165px;
+  margin-right: 12px;
+}
+#lxko .lxko_3 .lxko_3_cont > div ul li.mr {
+  margin-right: 0;
+}
+#lxko .lxko_3 .lxko_3_cont > div ul li img {
+  width: 165px;
+  height: 180px;
+}
+#lxko .lxko_3 .lxko_3_cont > div ul li div {
   height: auto;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl {
-  outline: 1px #F00 solid;
-  position: relative;
-  width: 165px;
-  float: left;
-  margin-right: 20px;
-  font-size: 0.75em;
-}
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl dt {
-  margin-top: 180px;
-  padding: 21px 0 18px;
-  font: 14px 'SDGothicNeo1R';
-  font-weight: bold;
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dt {
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
+  white-space: 1.5px;
+  display: block;
   color: #111;
+  padding: 21px 0 18px;
+  font-size: 14px;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl dd {
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dd {
+  font-size: 12px;
+  display: block;
   height: 50px;
   padding-top: 10px;
-  border-top: 1px #CCC solid;
-  line-height: 1.2;
-  color: #666;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .addr {
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dd:first-child {
   letter-spacing: -0.5px;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p:first-child {
-  padding-top: 0;
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dd:last-child a::before {
+  content: none;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p {
-  padding-top: 9px;
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dd a {
+  font-weight: bold;
 }
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .phone p span a {
-  font-size: 12px;
-  color: #333;
-}
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .web {
-  font-size: 12px;
-  color: #333;
-}
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list dl .pic {
-  height: 180px;
-  padding-top: 0;
-  border-top: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#lxko .lxko_3 .lxko_3_cont .full_set .dealer_list .lact_col {
-  margin-right: 0;
+#lxko .lxko_3 .lxko_3_cont > div ul li div dl dd a::before {
+  content: ":";
 }
 #society .society_1 {
   height: 360px;
