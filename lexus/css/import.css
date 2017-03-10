@@ -572,6 +572,71 @@ aside div li {
   text-rendering: optimizeLegibility;
   white-space: -1.5px;
 }
+#download .download_1 {
+  height: auto;
+}
+#download .download_1 .download_1_title {
+  padding: 40px 0 50px;
+  margin: 0 60px;
+  height: auto;
+}
+#download .download_1 .download_1_title p {
+  padding-bottom: 16px;
+  color: #666;
+  font-size: 13px;
+}
+#download .download_1 .download_1_title cite {
+  font-size: 34px;
+  color: #222;
+  font-weight: bold;
+}
+#download .download_1 .download_1_cont {
+  padding: 0 60px 60px;
+  height: auto;
+}
+#download .download_1 .download_1_cont div {
+  height: auto;
+}
+#download .download_1 .download_1_cont div ul li {
+  outline: 1px green solid;
+  width: 24.6%;
+  margin-bottom: 60px;
+  float: left;
+  display: inline-block;
+}
+#download .download_1 .download_1_cont div ul li a {
+  display: block;
+  width: 240px;
+}
+#download .download_1 .download_1_cont div ul li a dl dt span {
+  outline: 1px #F00 solid;
+  display: inline-block;
+  width: 200px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  line-height: 1;
+  color: #010101;
+}
+#download .download_1 .download_1_cont div ul li a dl dt em {
+  outline: 1px #F00 solid;
+  text-indent: -9999px;
+  float: right;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  background-image: url('../images/quick/download/btn_download.png');
+  background-repeat: no-repeat;
+}
+#download .download_1 .download_1_cont div ul li a dl dd.sub_txt {
+  height: 60px;
+  line-height: 1.5;
+}
+#download .download_1 .download_1_cont div ul li a dl dd.sub_txt span {
+  font-size: 0.75em;
+}
+#download .download_1 .download_1_cont div ul li a dl dd.sub_txt dd {
+  vertical-align: top;
+}
 .model_ls600h .model_ls600h_1 {
   background-color: #000;
 }
