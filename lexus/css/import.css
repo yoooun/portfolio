@@ -1084,14 +1084,15 @@ aside div li {
   line-height: 1.5;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont {
-  outline: 1px #F00 solid;
-  padding: 0 60px 60px;
+  padding: 0 60px;
+  height: 283px;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price {
-  outline: 1px green solid;
   width: 1603px;
+  height: auto;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol {
+  float: left;
   width: 1243px;
   margin-right: 60px;
   padding-bottom: 5px;
@@ -1101,8 +1102,289 @@ aside div li {
   height: 5px;
   background-color: #000;
 }
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a {
+  position: relative;
+  display: block;
+  padding: 16px 10px;
+  margin-top: 8px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a cite {
+  font-size: 14px;
+  font-weight: bold;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a cite span {
+  display: inline-block;
+  width: 30px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a p {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a p span {
+  background-image: url('../images/models/models/btn_group.png');
+  background-position: -40px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul {
+  padding: 30px 0;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li {
+  display: inline-block;
+  padding: 15px 0 0 20px;
+  font-size: 0.75em;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p {
+  width: 130px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p input {
+  visibility: hidden;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label {
+  position: relative;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label em {
+  display: inline-block;
+  background-image: url('../images/models/models/btn_group.png');
+  background-position: -132px -99px;
+  width: 15px;
+  height: 15px;
+  margin-left: -26px;
+  margin-right: 10px;
+  position: absolute;
+  top: -3px;
+}
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone {
   width: 300px;
+  height: auto;
+  float: left;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone cite {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  font-size: 0;
+  text-indent: -9999px;
+  visibility: hidden;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone span.hline {
+  display: block;
+  background: #000;
+  height: 6px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child {
+  padding-bottom: 30px;
+  display: block;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child p {
+  height: 40px;
+  padding: 40px 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child p span {
+  width: 17%;
+  float: left;
+  display: block;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child p span:last-child {
+  width: 83%;
+  text-align: right;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd.b_box p {
+  background-image: url('../images/models/models/bluebox.jpg');
+  padding: 19px;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd.b_box p span:first-child {
+  line-height: initial;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd.b_box p span {
+  display: block;
+  margin-bottom: 5px;
+  color: #FFF;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  word-spacing: 0.5px;
+  line-height: 1.4;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_title {
+  padding-top: 80px;
+  margin: 0 60px;
+  height: auto;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_title h2 {
+  font-size: 30px;
+  color: #222;
+  font-weight: bold;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_title p {
+  padding: 21px 0 18px;
+  font-size: 0.75em;
+  color: #666;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_title p span {
+  display: block;
+  line-height: 1.5;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont {
+  padding: 0 60px 100px;
+  height: 499px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req {
+  width: 1603px;
+  height: auto;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol {
+  float: left;
+  width: 1243px;
+  margin-right: 60px;
+  padding-bottom: 5px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li span.hline {
+  display: block;
+  height: 5px;
+  background-color: #000;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a {
+  position: relative;
+  display: block;
+  padding: 16px 10px;
+  margin-top: 8px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a cite {
+  font-size: 14px;
+  font-weight: bold;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a cite span {
+  display: inline-block;
+  width: 30px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p span {
+  background-image: url('../images/models/models/btn_group.png');
+  background-position: -40px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul {
+  padding: 30px 0;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li {
+  display: inline-block;
+  padding: 15px 0 0 20px;
+  font-size: 0.75em;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p {
+  width: 130px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p input {
+  visibility: hidden;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p label {
+  position: relative;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p label em {
+  display: inline-block;
+  background-image: url('../images/models/models/btn_group.png');
+  background-position: -132px -99px;
+  width: 15px;
+  height: 15px;
+  margin-left: -26px;
+  margin-right: 10px;
+  position: absolute;
+  top: -3px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li {
+  display: block;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li span.line {
+  margin-top: 5px;
+  display: block;
+  height: 1px;
+  background: #000;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a {
+  position: relative;
+  margin-top: 8px;
+  padding: 16px 10px 16px;
+  color: #bbb;
+  font-size: 14px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a cite {
+  color: #bbb;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a cite span {
+  display: inline-block;
+  width: 30px;
+  color: #bbb;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p span.arrow_0 {
+  background-image: url('../images/models/models/btn_group.png');
+  background-position: -55px -76px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map {
+  width: 300px;
+  height: auto;
+  float: left;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map cite {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  font-size: 0;
+  text-indent: -9999px;
+  visibility: hidden;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map span.hline {
+  display: block;
+  height: 6px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd div {
+  height: auto;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dt {
+  padding: 29px 0 32px;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd {
+  position: relative;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd table caption {
+  font-size: 0;
+  text-indent: -9999px;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd table tbody tr {
+  font-size: 13px;
+  border-bottom: 1px #e0e0e0 solid;
+  width: 300px;
+  display: block;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd table tbody tr th {
+  color: #bbb;
+  font-weight: normal;
+  text-align: left;
+  padding: 11px 0 9px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map dl dd table tbody tr td {
+  text-align: right;
+  color: #707070;
+  padding: 11px 0 9px;
 }
 #concept .concept_1 {
   position: relative;
