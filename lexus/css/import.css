@@ -572,6 +572,133 @@ aside div li {
   text-rendering: optimizeLegibility;
   white-space: -1.5px;
 }
+#submit .submit_1 {
+  outline: 1px green solid;
+  padding-bottom: 100px;
+}
+#submit .submit_1 .submit_1_title {
+  height: auto;
+  padding: 39px 0 15px;
+  margin: 0 60px;
+}
+#submit .submit_1 .submit_1_title p {
+  padding-bottom: 19px;
+}
+#submit .submit_1 .submit_1_title p span {
+  font-size: 13px;
+  color: #666;
+}
+#submit .submit_1 .submit_1_title cite {
+  font-size: 34px;
+  color: #222;
+  font-weight: bold;
+}
+#submit .submit_1 .submit_1_cont {
+  outline: 1px green solid;
+  height: auto;
+  padding: 0 60px 60px;
+}
+#submit .submit_1 .submit_1_cont div {
+  outline: 1px #000 solid;
+  width: 1603px;
+}
+#submit .submit_1 .submit_1_cont div ol {
+  outline: 1px #CCC solid;
+  width: 1243px;
+  margin-right: 60px;
+  padding-bottom: 5px;
+  border-bottom: 1px #e0e0e0 solid;
+}
+#submit .submit_1 .submit_1_cont div ol li span.hline {
+  display: block;
+  height: 6px;
+  color: #000;
+}
+#submit .submit_1 .submit_1_cont div ol li a {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+  padding: 16px 10px 16px;
+  color: #000;
+  font-size: 14px;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite {
+  display: inline-block;
+  width: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p {
+  outline: 1px #F00 solid;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow {
+  display: block;
+  width: 10px;
+  height: 5px;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
+  background-position: -40px -76px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area {
+  outline: 1px orange solid;
+  height: 473px;
+  padding-top: 23px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li {
+  outline: 1px #F00 solid;
+  float: left;
+  display: block;
+  width: 145px;
+  height: 210px;
+  padding-left: 20px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li p.cont_title {
+  height: 70px;
+  font-size: 55px;
+  color: #bbb;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
+  white-space: 1.5px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li {
+  padding: 7px 0;
+  display: block;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p {
+  outline: 1px #F00 solid;
+  font-size: 0.75em;
+  height: 16px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p input {
+  outline: 1px green solid;
+  position: relative;
+  top: -3px;
+  left: -4px;
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label {
+  outline: 1px blue solid;
+  display: inline-block;
+  margin-left: -29px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em {
+  background-image: url('../images/btn_group.png');
+  background-position: -132px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  outline: 1px blue solid;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
+  padding-left: 6px;
+}
 #download .download_1 {
   height: auto;
 }
@@ -1065,7 +1192,7 @@ aside div li {
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p span {
   outline: 1px #F00 solid;
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-repeat: no-repeat;
   background-position: -40px -73px;
   display: block;
@@ -1187,7 +1314,7 @@ aside div li {
   right: 10px;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li a p span {
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-position: -40px -76px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1213,7 +1340,7 @@ aside div li {
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label em {
   display: inline-block;
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
   width: 15px;
   height: 15px;
@@ -1334,7 +1461,7 @@ aside div li {
   right: 10px;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p span {
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-position: -40px -76px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -1360,7 +1487,7 @@ aside div li {
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p label em {
   display: inline-block;
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
   width: 15px;
   height: 15px;
@@ -1394,7 +1521,7 @@ aside div li {
   color: #bbb;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p span.arrow_0 {
-  background-image: url('../images/models/models/btn_group.png');
+  background-image: url('../images/btn_group.png');
   background-position: -55px -76px;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map {
