@@ -573,7 +573,7 @@ aside div li {
   white-space: -1.5px;
 }
 #submit .submit_1 {
-  outline: 1px green solid;
+  height: auto;
   padding-bottom: 100px;
 }
 #submit .submit_1 .submit_1_title {
@@ -594,25 +594,32 @@ aside div li {
   font-weight: bold;
 }
 #submit .submit_1 .submit_1_cont {
-  outline: 1px green solid;
   height: auto;
   padding: 0 60px 60px;
 }
 #submit .submit_1 .submit_1_cont div {
-  outline: 1px #000 solid;
   width: 1603px;
+  height: 779px;
 }
 #submit .submit_1 .submit_1_cont div ol {
-  outline: 1px #CCC solid;
   width: 1243px;
   margin-right: 60px;
   padding-bottom: 5px;
+  float: left;
   border-bottom: 1px #e0e0e0 solid;
+}
+#submit .submit_1 .submit_1_cont div ol li {
+  display: block;
 }
 #submit .submit_1 .submit_1_cont div ol li span.hline {
   display: block;
   height: 6px;
-  color: #000;
+  background-color: #000;
+}
+#submit .submit_1 .submit_1_cont div ol li span.line {
+  display: block;
+  height: 1px;
+  background-color: #000;
 }
 #submit .submit_1 .submit_1_cont div ol li a {
   position: relative;
@@ -627,26 +634,26 @@ aside div li {
   width: 30px;
 }
 #submit .submit_1 .submit_1_cont div ol li a p {
-  outline: 1px #F00 solid;
   position: absolute;
   top: 15px;
   right: 10px;
 }
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow.sele_arr {
+  background-position: -40px -76px;
+}
 #submit .submit_1 .submit_1_cont div ol li a p span.arrow {
   display: block;
   width: 10px;
-  height: 5px;
+  height: 10px;
   background-image: url('../images/btn_group.png');
   background-repeat: no-repeat;
-  background-position: -40px -76px;
+  background-position: -55px -76px;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area {
-  outline: 1px orange solid;
   height: 473px;
   padding-top: 23px;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li {
-  outline: 1px #F00 solid;
   float: left;
   display: block;
   width: 145px;
@@ -668,21 +675,19 @@ aside div li {
   display: block;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p {
-  outline: 1px #F00 solid;
   font-size: 0.75em;
   height: 16px;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p input {
-  outline: 1px green solid;
   position: relative;
   top: -3px;
   left: -4px;
   width: 15px;
   height: 15px;
   vertical-align: top;
+  visibility: hidden;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label {
-  outline: 1px blue solid;
   display: inline-block;
   margin-left: -29px;
 }
@@ -694,10 +699,241 @@ aside div li {
   width: 16px;
   height: 16px;
   vertical-align: middle;
-  outline: 1px blue solid;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
   padding-left: 6px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone {
+  width: 300px;
+  float: left;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case {
+  border-bottom: 2px #bbb solid;
+  margin-bottom: 30px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case span.hline {
+  display: block;
+  height: 6px;
+  background-color: #000;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case cite {
+  display: block;
+  padding: 13px 0 14px;
+  font-size: 26px;
+  font-family: 'nobel-bold';
+  color: #222;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case p {
+  height: 195px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dt {
+  padding: 29px 0 32px;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Nobel-Regular', 'SDGothicNeo1R';
+  font-weight: bold;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd table {
+  width: 100%;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd table caption {
+  text-indent: -9999px;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd table tbody tr {
+  border-bottom: 1px #e0e0e0 solid;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
+  white-space: 1.5px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd table tbody tr th {
+  text-align: left;
+  color: #bbb;
+  display: block;
+  padding: 11px 0 9px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd table tbody tr .td {
+  text-align: right;
+  color: #707070;
+  display: block;
+  padding: 11px 0 9px;
+}
+#submit .submit_1 {
+  height: auto;
+  padding-bottom: 100px;
+}
+#submit .submit_1 .submit_1_title {
+  height: auto;
+  padding: 39px 0 15px;
+  margin: 0 60px;
+}
+#submit .submit_1 .submit_1_title p {
+  padding-bottom: 19px;
+}
+#submit .submit_1 .submit_1_title p span {
+  font-size: 13px;
+  color: #666;
+}
+#submit .submit_1 .submit_1_title cite {
+  font-size: 34px;
+  color: #222;
+  font-weight: bold;
+}
+#submit .submit_1 .submit_1_cont {
+  height: auto;
+  padding: 0 60px 60px;
+}
+#submit .submit_1 .submit_1_cont div {
+  width: 1603px;
+  height: 779px;
+}
+#submit .submit_1 .submit_1_cont div ol {
+  width: 1243px;
+  margin-right: 60px;
+  padding-bottom: 5px;
+  float: left;
+  border-bottom: 1px #e0e0e0 solid;
+}
+#submit .submit_1 .submit_1_cont div ol li {
+  display: block;
+}
+#submit .submit_1 .submit_1_cont div ol li span.hline {
+  display: block;
+  height: 6px;
+  background-color: #000;
+}
+#submit .submit_1 .submit_1_cont div ol li span.line {
+  display: block;
+  height: 1px;
+  background-color: #000;
+}
+#submit .submit_1 .submit_1_cont div ol li a {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+  padding: 16px 10px 16px;
+  color: #000;
+  font-size: 14px;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite {
+  display: inline-block;
+  width: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow.sele_arr {
+  background-position: -40px -76px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
+  background-position: -55px -76px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area {
+  height: 473px;
+  padding-top: 23px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li {
+  float: left;
+  display: block;
+  width: 145px;
+  height: 210px;
+  padding-left: 20px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li p.cont_title {
+  height: 70px;
+  font-size: 55px;
+  color: #bbb;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.2px;
+  white-space: 1.5px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li {
+  padding: 7px 0;
+  display: block;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p {
+  font-size: 0.75em;
+  height: 16px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p input {
+  position: relative;
+  top: -3px;
+  left: -4px;
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  visibility: hidden;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label {
+  display: inline-block;
+  margin-left: -29px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em {
+  background-image: url('../images/btn_group.png');
+  background-position: -132px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
+  padding-left: 6px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone {
+  width: 300px;
+  float: left;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case {
+  border-bottom: 2px #bbb solid;
+  margin-bottom: 30px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case span.hline {
+  display: block;
+  height: 6px;
+  background-color: #000;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case cite {
+  display: block;
+  padding: 13px 0 14px;
+  font-size: 26px;
+  font-family: 'nobel-bold';
+  color: #222;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd.model-img-case p {
+  height: 195px;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd:last-child p {
+  padding: 40px 0;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd:last-child p span {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd:last-child p .unit {
+  width: 17%;
+  display: block;
+}
+#submit .submit_1 .submit_1_cont div .checkzone dl dd:last-child p .pvalue {
+  width: 83%;
+  text-align: right;
 }
 #download .download_1 {
   height: auto;
