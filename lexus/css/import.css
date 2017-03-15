@@ -1198,7 +1198,6 @@ aside div li {
   bottom: 0;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_title_ex {
-  outline: 1px #F00 solid;
   position: relative;
   padding: 80px 0 0;
   margin: 0 60px;
@@ -1240,7 +1239,7 @@ aside div li {
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_txt_ex {
   display: block;
   width: 264px;
-  height: 22px;
+  height: 0;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_txt_ex em {
   font-size: 11px;
@@ -1253,11 +1252,36 @@ aside div li {
   position: absolute;
   bottom: 40px;
 }
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex {
+  outline: 5px #F00 solid;
+  height: 450px;
+  position: relative;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div {
+  outline: 2px #00F solid;
+  width: 1024px;
+  height: 450px;
+  position: relative;
+  margin: 0 auto;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div span:first-child {
+  display: block;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div span {
+  position: absolute;
+  display: none;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex .slide_bar {
+  outline: 2px #0F0 solid;
+  width: 1723px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+}
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_nav_ex {
   height: 70px;
   padding: 19px 0 58px;
   text-align: center;
-  margin-top: 430px;
   outline: 1px #00F solid;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_nav_ex ul {

@@ -235,7 +235,6 @@
 
     .model_ls600h_3{
       .model_ls600h_3_title_ex{
-        outline:1px #F00 solid;
         position: relative;
         padding:80px 0 0;
         margin:0 60px;
@@ -277,7 +276,7 @@
         .model_3_txt_ex{
           display:block;
           width:264px;
-          height:22px;
+          height:0;
           em{
             font-size:11px;
             color:#A1A1A1;
@@ -292,11 +291,40 @@
             bottom:40px;
           }
         }
+
+        .model_3_view_ex{
+          outline:5px #F00 solid;
+          height:450px;
+          position:relative;
+          div{
+            outline:2px #00F solid;
+            width:1024px;
+            height:450px;
+            position:relative;
+            margin:0 auto;
+            span:first-child{
+              display:block;
+            }
+            span{
+              position:absolute;
+              display:none;
+            }
+          }
+          .slide_bar{
+            outline:2px #0F0 solid;
+            width:1723px;
+            height:450px;
+            position:absolute;
+            top:0;
+          }
+        }
+
+
         .model_3_nav_ex{
           height:70px;
           padding:19px 0 58px;
           text-align:center;
-          margin-top:430px;
+          // margin-top:430px;
           outline:1px #00F solid;
             ul{
               padding-bottom:13px;
