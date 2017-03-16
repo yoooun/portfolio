@@ -15,18 +15,49 @@
 
 <script>
 
-$( document ).on( "mousemove", function( event ) {
+// $( document ).on( "mousemove", function( event ) {
+//S
+//   $( ".model_3_view_ex" ).text(event.pageX )
+//
+//
+//
+//   var aa = $('.model_3_view_ex span.length');
 
-  $( ".model_3_view_ex" ).text(event.pageX )
+  $(document).ready(function(){
+
+    var idx = 0;
+    $('.hover div').mouseenter(function(){
+      var idx = $(this).index();
+      $('.pic_ex span').eq(idx).css('display','block').siblings().css('display','none')
+    });
+
+
+    $('.model_3_nav_ex').on('click','li a',function(){
+      var nav_ex = $(this).parent().index();
+      shose(nav_ex);
+      return false;
+    });
+
+    function shose(i){
+      $('.model_3_view_ex').children('div').eq(i).addClass('pic_ex').siblings().removeClass('pic_ex')
+    }
+
+
+    $('.model_3_nav_in').on('click','li a',function(){
+      var nav_in = $(this).parent().index();
+      console.log('asdasd')
+      imgChange(nav_in);
+      return false;
+    })
+    function imgChange(i){
+      $('.model_3_view_in').children('div').eq(i).addClass('pic_in').siblings().removeClass('pic_in')
+    }
 
 
 
-  var aa = $('.model_3_view_ex span.length');
+  });
 
 
-
-
-});
 
 
 </script>
@@ -773,7 +804,7 @@ $( document ).on( "mousemove", function( event ) {
                        </ol>
 
                        <div>
-                         <a href="#"><img src="../images/modles/gnb/brochure.png" alt="brochure download"></a>
+                         <a href="#"><img src="../images/models/gnb/brochure.png" alt="brochure download"></a>
                        </div>
 
                        <div>
@@ -856,7 +887,7 @@ $( document ).on( "mousemove", function( event ) {
        </div>
        <div class="model_ls600h_2_content">
          <ul>
-           <li>
+           <li class="tr">
              <a href="#">
                <img src="../images/models/models/cp/ls_cp5.jpg" alt="5.0L V8 가솔린 엔진">
                <span></span>
@@ -868,7 +899,7 @@ $( document ).on( "mousemove", function( event ) {
                <span></span>
              </a>
            </li>
-           <li>
+           <li class="tr">
              <a href="#">
                <img src="../images/models/models/cp/ls_cp7.jpg" alt="풀타임 AWD 시스템">
                <span></span>
@@ -880,7 +911,7 @@ $( document ).on( "mousemove", function( event ) {
                <span></span>
              </a>
            </li>
-           <li>
+           <li class="tr">
              <a href="#">
                <img src="../images/models/models/cp/ls_cp9.jpg" alt="BSM (사각지대 감지장치) / RCTA (후측방 경고 시스템)">
                <span></span>
@@ -892,7 +923,7 @@ $( document ).on( "mousemove", function( event ) {
                <span></span>
              </a>
            </li>
-           <li>
+           <li class="tr">
              <a href="#">
                <img src="../images/models/models/cp/ls_cp11.jpg" alt="LED 헤드램프">
                <span></span>
@@ -904,7 +935,7 @@ $( document ).on( "mousemove", function( event ) {
                <span></span>
              </a>
            </li>
-           <li>
+           <li class="tr">
              <a href="#">
                <img src="../images/models/models/cp/ls_cp13.jpg" alt="클라이밋 컨시어지 시스템 (Climate Concierge System)">
                <span></span>
@@ -921,6 +952,7 @@ $( document ).on( "mousemove", function( event ) {
      </section>
 
      <section class="model_ls600h_3">
+
        <div class="model_ls600h_3_title_ex">
          <h2>디자인</h2>
          <p>럭셔리 디자인의 새로운 기준. 그 특별함을 경험해보세요.</p>
@@ -934,7 +966,7 @@ $( document ).on( "mousemove", function( event ) {
             </div>
             <!-- 차 모델 사진 슬라이드 -->
             <div class="model_3_view_ex">
-              <div>
+              <div class="pic_ex">
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/1%20copy(41).png" alt></span>
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_077_00033%20copy(2).png" alt></span>
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(84).png" alt></span>
@@ -942,147 +974,43 @@ $( document ).on( "mousemove", function( event ) {
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(40).png" alt></span>
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(40).png" alt></span>
                 <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(40).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(40).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(40).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(40).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(40).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(40).png" alt></span>
               </div>
-              <!-- <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(39).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_1J2_00033 copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(82).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(82).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(38).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(38).png" alt></span>
-              </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_1J7_00033 copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(44).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(44).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(19).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(19).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg2_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_4U7_00033 copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(45).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(45).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(20).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(20).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg3_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_1H9_00033 copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(46).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(46).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(21).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(21).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg4_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_3R1_00033-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11-copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10-copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3-copy(1).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2-copy(1).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg5_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(23).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_3R1_00033 copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(47).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(47).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(22).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(22).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg6_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_4V3_00033-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11-copy(24).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10-copy(24).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3-copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2-copy(0).png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg7_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_212_00033-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11-copy(23).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10-copy(23).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3-copy.png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2-copy.png" alt></span>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg8_1.png" alt></span>
               </div>
-
               <div>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/1 copy(26).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/LS600hL_212_00033 copy(0).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/11 copy(50).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/10 copy(50).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/9 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/8 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/7 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/6 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/5 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/4 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/3 copy(25).png" alt></span>
-                <span><img src="http://www.lexus.co.kr/files/model/exterior/2 copy(25).png" alt></span>
-              </div> -->
-              <div class="slide_bar"></div>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg9_1.png" alt></span>
+              </div>
+              <div>
+                <span><img src="../images/models/models/dg/exterior/ls600hl_dg10_1.png" alt></span>
+              </div>
+              <div class="hover">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
             </div>
 
             <div class="model_3_nav_ex">
@@ -1148,10 +1076,24 @@ $( document ).on( "mousemove", function( event ) {
           <h3>INTERIOR</h3>
         </div>
         <div class="model_3_dg_in">
+          <div class="model_3_view_in">
+            <div class="pic_in">
+              <span><img src="../images/models/models/dg/interior/ls600hl_dg_in_bg_1.jpg" alt></span>
+            </div>
+            <div>
+              <span><img src="../images/models/models/dg/interior/ls600hl_dg_in_bg_2.jpg" alt></span>
+           </div>
+           <div>
+              <span><img src="../images/models/models/dg/interior/ls600hl_dg_in_bg_3.jpg" alt></span>
+           </div>
+           <div>
+              <span><img src="../images/models/models/dg/interior/ls600hl_dg_in_bg_4.jpg" alt></span>
+          </div>
+        </div>
           <div class="model_3_nav_in">
              <ul>
                <li>
-                 <a href="#">
+                 <a href="javascript:void(0)">
                    <img src="../images/models/models/dg/interior/ls600hl_dg_in_c1.jpg" alt="SONIC QUARTZ">
                  </a>
                </li>
@@ -1180,6 +1122,7 @@ $( document ).on( "mousemove", function( event ) {
          <div class="model_ls600h_3_title_wh">
            <h3>WHEEL</h3>
          </div>
+         <div class="model_3_dg_wh_p">
          <div class="model_3_dg_wh">
            <div class="model_3_nav_wh">
               <ul>
@@ -1191,6 +1134,7 @@ $( document ).on( "mousemove", function( event ) {
               </ul>
               <span>19인치 휠</span>
             </div>
+          </div>
           </div>
         </div>
 

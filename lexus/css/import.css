@@ -1171,8 +1171,13 @@ aside div li {
 .model_ls600h .model_ls600h_2_content {
   height: 1650px;
 }
+.model_ls600h .model_ls600h_2_content li.tr {
+  text-align: right;
+}
+.model_ls600h .model_ls600h_2_content li.tr span {
+  right: 0;
+}
 .model_ls600h .model_ls600h_2_content li {
-  outline: 1px #F00 solid;
   background-color: #000;
   display: block;
   float: left;
@@ -1185,10 +1190,9 @@ aside div li {
   max-width: 800px;
 }
 .model_ls600h .model_ls600h_2_content li a span {
-  outline: 1px #F00 solid;
-  background-image: url("../images/models/models/cp/btn_group");
+  background-image: url("../images/models/models/cp/btn_group.png");
   background-repeat: no-repeat;
-  background-position: -47px -356px;
+  background-position: 0 -450px;
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -1227,10 +1231,9 @@ aside div li {
   padding: 19px 0 0 10px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex {
-  height: 455px;
+  height: 598px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex {
-  outline: 1px #00F solid;
   position: relative;
   height: 450px;
   background-size: cover;
@@ -1253,36 +1256,45 @@ aside div li {
   bottom: 40px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex {
-  outline: 5px #F00 solid;
   height: 450px;
   position: relative;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div {
-  outline: 2px #00F solid;
+  display: none;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div.pic_ex {
   width: 1024px;
   height: 450px;
-  position: relative;
-  margin: 0 auto;
-}
-.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div span:first-child {
+  position: absolute;
+  left: 50%;
+  margin-left: -512px;
   display: block;
 }
-.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div span {
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div.pic_ex span:first-child {
+  display: block;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div.pic_ex span {
   position: absolute;
   display: none;
 }
-.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex .slide_bar {
-  outline: 2px #0F0 solid;
-  width: 1723px;
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div.hover {
+  display: block;
   height: 450px;
+  width: 1024px;
   position: absolute;
-  top: 0;
+  left: 50%;
+  margin-left: -512px;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_view_ex div.hover div {
+  display: block;
+  width: 146px;
+  height: 450px;
+  float: left;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_nav_ex {
   height: 70px;
   padding: 19px 0 58px;
   text-align: center;
-  outline: 1px #00F solid;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_ex .model_3_dg_ex .model_3_nav_ex ul {
   padding-bottom: 13px;
@@ -1298,18 +1310,15 @@ aside div li {
   font-weight: bold;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in {
-  height: 778px;
+  height: 652px;
   position: relative;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_ls600h_3_title_in {
-  height: 778px;
-  outline: 1px #F0F solid;
+  height: 505px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_ls600h_3_title_in h3 {
-  outline: 1px #F0F solid;
   margin: 0 60px;
   position: relative;
-  top: 146px;
   font-family: 'nobel-bold';
   font-size: 16px;
   color: #666;
@@ -1318,25 +1327,42 @@ aside div li {
   padding: 19px 0 19px 10px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in {
+  height: auto;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_view_in {
   position: absolute;
-  top: 200px;
+  top: 55px;
   width: 100%;
   height: 450px;
-  background-size: cover;
-  background: url('../images/models/models/dg/interior/ls600hl_dg_in_bg_1.jpg');
+  background-color: #000;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_view_in div {
+  display: none;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_view_in div span img {
+  position: absolute;
+  width: 1600px;
+  height: 450px;
+  left: 50%;
+  margin-left: -800px;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_view_in div.pic_in {
+  display: block;
+  height: 450px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_nav_in {
   height: 70px;
   padding: 19px 0 58px;
   text-align: center;
-  margin-top: 430px;
-  outline: 1px #00F solid;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_nav_in ul {
   padding-bottom: 13px;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_nav_in ul li {
   display: inline-block;
+}
+.model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_nav_in ul li a {
+  cursor: auto;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_in .model_3_dg_in .model_3_nav_in span {
   font-size: 0.75em;
@@ -1346,15 +1372,13 @@ aside div li {
   font-weight: bold;
 }
 .model_ls600h .model_ls600h_3_wh {
-  height: 778px;
+  height: 712px;
   position: relative;
 }
 .model_ls600h .model_ls600h_3_wh .model_ls600h_3_title_wh {
-  height: 778px;
-  outline: 1px #F0F solid;
+  height: 55px;
 }
 .model_ls600h .model_ls600h_3_wh .model_ls600h_3_title_wh h3 {
-  outline: 1px #F0F solid;
   margin: 0 60px;
   position: relative;
   font-family: 'nobel-bold';
@@ -1364,28 +1388,33 @@ aside div li {
   border-top: 1px #000  solid;
   padding: 19px 0 19px 10px;
 }
-.model_ls600h .model_ls600h_3_wh .model_3_dg_wh {
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p {
+  background-color: #000;
+  height: 510px;
+}
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p .model_3_dg_wh {
   position: absolute;
-  top: 54px;
-  width: 100%;
-  height: 450px;
+  left: 50%;
+  margin-left: -800px;
+  top: 55px;
+  width: 1600px;
+  height: 510px;
   background-size: cover;
   background: url('../images/models/models/dg/wheel/ls600hl_dg_wheel_bg.jpg');
 }
-.model_ls600h .model_ls600h_3_wh .model_3_dg_wh .model_3_nav_wh {
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p .model_3_dg_wh .model_3_nav_wh {
   height: 70px;
   padding: 19px 0 58px;
   text-align: center;
-  margin-top: 430px;
-  outline: 1px #00F solid;
+  margin-top: 510px;
 }
-.model_ls600h .model_ls600h_3_wh .model_3_dg_wh .model_3_nav_wh ul {
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p .model_3_dg_wh .model_3_nav_wh ul {
   padding-bottom: 13px;
 }
-.model_ls600h .model_ls600h_3_wh .model_3_dg_wh .model_3_nav_wh ul li {
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p .model_3_dg_wh .model_3_nav_wh ul li {
   display: inline-block;
 }
-.model_ls600h .model_ls600h_3_wh .model_3_dg_wh .model_3_nav_wh span {
+.model_ls600h .model_ls600h_3_wh .model_3_dg_wh_p .model_3_dg_wh .model_3_nav_wh span {
   font-size: 0.75em;
   color: #666;
   letter-spacing: 0.2px;
