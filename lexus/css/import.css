@@ -1545,6 +1545,49 @@ aside div li {
   height: 2px;
   margin: 0 9px 0 -11px;
 }
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table caption {
+  font-size: 0;
+  text-indent: -9999px;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table thead tr th {
+  padding: 17px 3px;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table thead tr th span {
+  font-size: 0;
+  text-indent: -9999px;
+  visibility: hidden;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table thead tr th em {
+  font-size: 0.75em;
+  color: #666;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table tbody tr td.sell_left {
+  text-align: left;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table tbody tr td {
+  padding: 10px 10px 6px;
+  border-bottom: 1px #e0e0e0 solid;
+  color: #666;
+  font-size: 0.75em;
+  text-align: center;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table tbody tr td span {
+  outline: 1px #F00 solid;
+  text-indent: -9999px;
+  background-image: url('../images/btn_group.png');
+  background-position: -90px -75px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 17px;
+}
 .model_ls600h .model_ls600h_5 .model_ls600h_5_title {
   padding-top: 80px;
   margin: 0 60px;
@@ -1713,7 +1756,7 @@ aside div li {
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont {
   padding: 0 60px 100px;
-  height: 499px;
+  height: auto;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req {
   width: 1603px;
@@ -1812,6 +1855,143 @@ aside div li {
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li a p span.arrow_0 {
   background-image: url('../images/btn_group.png');
   background-position: -55px -76px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo {
+  padding-top: 30px;
+  height: auto;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl {
+  padding: 36px 0 0 10px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dt {
+  float: left;
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dt label {
+  display: inline-block;
+  width: 60px;
+  padding-left: 30px;
+  font-size: 13px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd {
+  display: inline-block;
+  width: 75%;
+  height: 30px;
+  padding-bottom: 30px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd span {
+  display: inline-block;
+  width: 65.5%;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd span input {
+  display: inline-block;
+  padding: 0 2%;
+  width: 100%;
+  height: 30px;
+  border: 1px #bbb solid;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd select {
+  padding: 0 0 0 1%;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  -webkit-appearance: menulist;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd.email-holder span {
+  width: 28%;
+  height: 30px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo dl dd.email-holder em {
+  margin-left: 1.5%;
+  width: 5.1%;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo ul {
+  padding: 0 0 30px 30px;
+  vertical-align: middle;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo ul li {
+  padding: 0 6px 3px 12px;
+  line-height: 1.3;
+  display: list-item;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo ul li em {
+  display: inline-block;
+  width: 4px;
+  height: 12px;
+  background-image: url('../images/sprite_bul_pat.png');
+  background-repeat: no-repeat;
+  background-position: 0 -12px;
+  vertical-align: middle;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree {
+  padding: 0 0 17px 30px;
+  height: auto;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree p {
+  width: 160px;
+  display: inline-block;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree p input {
+  width: 13px;
+  height: 13px;
+  visibility: hidden;
+  position: relative;
+  top: 20px;
+  left: -28px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree p label {
+  display: inline-block;
+  vertical-align: top;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree p label em {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
+  background-position: -90px -99px;
+  margin-left: -26px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree p label span {
+  font-size: 0.75em;
+  letter-spacing: -0.8px;
+  color: #666;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree a.more {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 2px 0 1px 0;
+  margin-top: 0;
+  color: #666;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo .more-info-agree a.more span {
+  background-image: url('../images/sprite_bul_pat.png');
+  background-repeat: no-repeat;
+  background-position: 0 -31px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo p {
+  padding-bottom: 30px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li .psinfo p a {
+  display: block;
+  padding: 21px 0 19px;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #000;
+  font-weight: bold;
+  text-align: center;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req .checkzone_map {
   width: 300px;
