@@ -8,66 +8,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="../js/main.js"></script>
   <script src="../js/models-gnb.js"></script>
+  <script src="../js/models.js"></script>
   <link rel="stylesheet" href="../css/import.css">
 
   <title>Document</title>
 </head>
 
-<script>
-
-// $( document ).on( "mousemove", function( event ) {
-//S
-//   $( ".model_3_view_ex" ).text(event.pageX )
-//
-//
-//
-//   var aa = $('.model_3_view_ex span.length');
-
-  $(document).ready(function(){
-
-    var idx = 0;
-    $('.hover div').mouseenter(function(){
-      var idx = $(this).index();
-      $('.pic_ex span').eq(idx).css('display','block').siblings().css('display','none')
-    });
-
-
-    $('.model_3_nav_ex').on('click','li a',function(){
-      var nav_ex = $(this).parent().index();
-      shose(nav_ex);
-      return false;
-    });
-
-    function shose(i){
-      $('.model_3_view_ex').children('div').eq(i).addClass('pic_ex').siblings().removeClass('pic_ex')
-    }
-
-
-    $('.model_3_nav_in').on('click','li a',function(){
-      var nav_in = $(this).parent().index();
-      console.log('asdasd')
-      imgChange(nav_in);
-      return false;
-    })
-    function imgChange(i){
-      $('.model_3_view_in').children('div').eq(i).addClass('pic_in').siblings().removeClass('pic_in')
-    }
-
-
-
-  });
-
-
-
-
-</script>
 <body>
 
   <div class="depth-1-nav-wrapper">
     <header class="pf">
         <div>
            <h1>렉서스</h1>
-           <a href="#">
+           <a href="#none">
              <!-- homepage gogo -->
              <img src="../images/main/lexus-nav-logo.png" alt="lexus로고">
            </a>
@@ -84,7 +37,7 @@
 
               <ul>
                 <li class="g-models">
-                  <a href="#">
+                  <a href="#none">
                     <h2 class="g-models-show">models <i></i></h2>
                     <!-- 이새끼 혼자 3가지 나머지 2depth 스타일 똑같음  -->
                   </a>
@@ -103,31 +56,31 @@
                 </li>
                 <!-- hybridzero end -->
                 <li class="g-fperformance">
-                  <a href="#">
+                  <a href="#none">
                     <h2>f performance<i></i></h2>
                   </a>
                 </li>
                 <!-- fperformance end -->
                 <li class="g-membership">
-                  <a href="#">
+                  <a href="#none">
                     <h2>membership<i></i></h2>
                   </a>
                 </li>
                 <!-- membership end -->
                 <li class="g-service">
-                  <a href="#">
+                  <a href="#none">
                     <h2>service<i></i></h2>
                   </a>
                 </li>
                 <!-- service end -->
                 <li class="g-lexuscertified">
-                  <a href="#">
+                  <a href="#none">
                     <h2>lexus certified<i></i></h2>
                   </a>
                 </li>
                 <!-- lexuscertified end -->
                 <li class="g-company">
-                  <a href="#">
+                  <a href="#none">
                     <h2>company<i></i></h2>
                   </a>
                 </li>
@@ -138,10 +91,10 @@
       <nav class="nav-depth-1-sub">
             <div class="g-models-sub-2">
 
-                  <a href="#" class="models-sub-2-alllineup on"><h3 class="on">all line up</h3></a>
-                  <a href="#" class="models-sub-2-hybrid"><h3>hybrid</h3></a>
-                  <a href="#" class="models-sub-2-fsport"><h3>f&#45;sport</h3></a>
-                  <a href="#" id="depth-2-menu"><input type="../images/main" src=""><span>MENU</span></a>
+                  <a href="#none" class="models-sub-2-alllineup on"><h3 class="on">all line up</h3></a>
+                  <a href="#none" class="models-sub-2-hybrid"><h3>hybrid</h3></a>
+                  <a href="#none" class="models-sub-2-fsport"><h3>f&#none45;sport</h3></a>
+                  <a href="#none" id="depth-2-menu"><input type="../images/main" src=""><span>MENU</span></a>
 
                   <div class="models-sub-2-alllineup on">
                          <ul>
@@ -150,35 +103,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="../images/main/ls.png" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                   </ul>
                              </li>
@@ -188,35 +122,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="../images/main/ls.png" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                   </ul>
                              </li>
@@ -226,35 +141,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="../images/main/ls.png" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                   </ul>
                              </li>
@@ -264,16 +160,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                   </ul>
                              </li>
@@ -283,16 +179,73 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL<i></i></a>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="../images/main/ls.png" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="../images/main/ls.png" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="../images/main/ls.png" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL<i></i></a>
                                       </li>
                                   </ul>
 
@@ -309,35 +262,16 @@
                                 <cite>LS</cite>
                                 <ul>
                                     <li>
-                                      <a href="#">LS 600hL<i></i></a>
+                                      <a href="#none">LS 600hL<i></i></a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL<i></i></a>
+                                      <a href="#none">LS 600hL<i></i></a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL<i></i></a>
+                                      <a href="#none">LS 600hL<i></i></a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL<i></i></a>
-                                    </li>
-                                </ul>
-                           </li>
-
-                           <li>
-                               <img src="" alt="">
-                                <cite>LS</cite>
-                                <ul>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL<i></i></a>
                                     </li>
                                 </ul>
                            </li>
@@ -347,35 +281,16 @@
                                 <cite>LS</cite>
                                 <ul>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                </ul>
-                           </li>
-
-                           <li>
-                               <img src="" alt="">
-                                <cite>LS</cite>
-                                <ul>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                 </ul>
                            </li>
@@ -385,35 +300,16 @@
                                 <cite>LS</cite>
                                 <ul>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                </ul>
-                           </li>
-
-                           <li>
-                               <img src="" alt="">
-                                <cite>LS</cite>
-                                <ul>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
-                                    </li>
-                                    <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                 </ul>
                            </li>
@@ -423,16 +319,16 @@
                                 <cite>LS</cite>
                                 <ul>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                 </ul>
                            </li>
@@ -442,16 +338,73 @@
                                 <cite>LS</cite>
                                 <ul>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                     <li>
-                                      <a href="#">LS 600hL</a>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                </ul>
+                           </li>
+
+                           <li>
+                               <img src="" alt="">
+                                <cite>LS</cite>
+                                <ul>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                </ul>
+                           </li>
+
+                           <li>
+                               <img src="" alt="">
+                                <cite>LS</cite>
+                                <ul>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                </ul>
+                           </li>
+
+                           <li>
+                               <img src="" alt="">
+                                <cite>LS</cite>
+                                <ul>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
+                                    </li>
+                                    <li>
+                                      <a href="#none">LS 600hL</a>
                                     </li>
                                 </ul>
 
@@ -467,35 +420,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                   </ul>
                              </li>
@@ -505,35 +439,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                   </ul>
                              </li>
@@ -543,35 +458,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                  </ul>
-                             </li>
-
-                             <li>
-                                 <img src="" alt="">
-                                  <cite>LS</cite>
-                                  <ul>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
-                                      </li>
-                                      <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                   </ul>
                              </li>
@@ -581,16 +477,16 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                   </ul>
                              </li>
@@ -600,16 +496,73 @@
                                   <cite>LS</cite>
                                   <ul>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                       <li>
-                                        <a href="#">LS 600hL</a>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                  </ul>
+                             </li>
+
+                             <li>
+                                 <img src="" alt="">
+                                  <cite>LS</cite>
+                                  <ul>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
+                                      </li>
+                                      <li>
+                                        <a href="#none">LS 600hL</a>
                                       </li>
                                   </ul>
 
@@ -623,23 +576,23 @@
                 <cite><i></i>lexus story</cite>
                 <ul>
                   <li>
-                    <a href="#">the begining <i></i></a>
+                    <a href="#none">the begining <i></i></a>
                   </li>
 
                   <li>
-                    <a href="#">brand philosophy <i></i></a>
+                    <a href="#none">brand philosophy <i></i></a>
                   </li>
 
                   <li>
-                    <a href="#">amazing project <i></i></a>
+                    <a href="#none">amazing project <i></i></a>
                   </li>
 
                   <li>
-                    <a href="#">amazing<br />experience day <i></i></a>
+                    <a href="#none">amazing<br />experience day <i></i></a>
                   </li>
 
                   <li>
-                    <a href="#">amazing<br />hybrid journey <i></i></a>
+                    <a href="#none">amazing<br />hybrid journey <i></i></a>
                   </li>
 
                 </ul>
@@ -649,25 +602,25 @@
                 <cite><i></i>hybrid zero</cite>
                 <ul>
                   <li>
-                    <a href="#">htprid zero <i></i></a>
+                    <a href="#none">htprid zero <i></i></a>
                   </li>
                   <li>
-                    <a href="#">emotional hybrid <i></i></a>
+                    <a href="#none">emotional hybrid <i></i></a>
                   </li>
                   <li>
-                    <a href="#">the origin <i></i></a>
+                    <a href="#none">the origin <i></i></a>
                   </li>
                   <li>
-                    <a href="#">perfect flow <i></i></a>
+                    <a href="#none">perfect flow <i></i></a>
                   </li>
                   <li>
-                    <a href="#">heading for zero <i></i></a>
+                    <a href="#none">heading for zero <i></i></a>
                   </li>
                   <li>
-                    <a href="#">evolvingzero <i></i></a>
+                    <a href="#none">evolvingzero <i></i></a>
                   </li>
                   <li>
-                    <a href="#">line up <i></i></a>
+                    <a href="#none">line up <i></i></a>
                   </li>
                 </ul>
             </div>
@@ -676,16 +629,16 @@
                 <cite><i></i>f performance</cite>
                 <ul>
                   <li>
-                    <a href="#">about f <i></i></a>
+                    <a href="#none">about f <i></i></a>
                   </li>
                   <li>
-                    <a href="#">the f heritage <i></i></a>
+                    <a href="#none">the f heritage <i></i></a>
                   </li>
                   <li>
-                    <a href="#">f sport <i></i></a>
+                    <a href="#none">f sport <i></i></a>
                   </li>
                   <li>
-                    <a href="#">line up <i></i></a>
+                    <a href="#none">line up <i></i></a>
                   </li>
                 </ul>
             </div>
@@ -694,13 +647,13 @@
                 <cite><i></i>membership</cite>
                 <ul>
                   <li>
-                    <a href="#">멤버십 안내 <i></i></a>
+                    <a href="#none">멤버십 안내 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">가입 조건 및 방법 <i></i></a>
+                    <a href="#none">가입 조건 및 방법 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">멤버십 혜택 <i></i></a>
+                    <a href="#none">멤버십 혜택 <i></i></a>
                   </li>
                 </ul>
             </div>
@@ -709,31 +662,31 @@
                 <cite><i></i>service</cite>
                 <ul>
                   <li>
-                    <a href="#">렉서스 서비스 <i></i></a>
+                    <a href="#none">렉서스 서비스 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">서비스 프로그램 <i></i></a>
+                    <a href="#none">서비스 프로그램 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">전시장 &#38; 서비스센터 <i></i></a>
+                    <a href="#none">전시장 &#none38; 서비스센터 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">렉서스 고객 지원실 <i></i></a>
+                    <a href="#none">렉서스 고객 지원실 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">부품 가격 &#38; 취급 정보 <i></i></a>
+                    <a href="#none">부품 가격 &#none38; 취급 정보 <i></i></a>
                   </li>
                   <li>
-                    <a href="#">서비스자료	&#176; 장비 &#176; 교육 <i></i></a>
+                    <a href="#none">서비스자료	&#none176; 장비 &#none176; 교육 <i></i></a>
                   </li>
                 </ul>
 
                 <dl class="g-service-sub-2-ss">
-                    <dt><i></i>080&#45;4300&#45;4300</dt>
+                    <dt><i></i>080&#none45;4300&#none45;4300</dt>
                     <dd>렉서스 고객지원실</dd>
-                    <dd>월요일&#45;금요일 09:00~18:00</dd>
+                    <dd>월요일&#none45;금요일 09:00~18:00</dd>
                     <dd><i></i>긴급 출동서비스</dd>
-                    <dd>365일 24시간&#40;연중무휴&#41;</dd>
+                    <dd>365일 24시간&#none40;연중무휴&#none41;</dd>
 
                 </dl>
             </div>
@@ -741,7 +694,7 @@
             <div class="g-lexuscertified-sub-2 sub-2">
                 <cite><i></i>lexus certified</cite>
                 <ul>
-                  <li><a href="#">인증중고차 소개 <i></i></a></li>
+                  <li><a href="#none">인증중고차 소개 <i></i></a></li>
                 </ul>
             </div>
 
@@ -749,13 +702,13 @@
               <cite><i></i>company</cite>
               <ul>
                 <li>
-                  <a href="#">렉서스 코리아 <i></i></a>
+                  <a href="#none">렉서스 코리아 <i></i></a>
                 </li>
                 <li>
-                  <a href="#">사회공헌 <i></i></a>
+                  <a href="#none">사회공헌 <i></i></a>
                 </li>
                 <li>
-                  <a href="#">보도자료 <i></i></a>
+                  <a href="#none">보도자료 <i></i></a>
                 </li>
               </ul>
           </div>
@@ -768,43 +721,43 @@
   <div class="depth-2-nav-wrapper nav-depth2">
       <!-- depth 2 nav -->
   	     <nav id="models-gnb" class="nav-depth-2 models-gnb pf">
-               <a href="#" id="depth-2-menu"><input type="../images/main" src=""><span>MENU</span></a>
+               <a href="#none" id="depth-2-menu"><input type="../images/main" src=""><span>MENU</span></a>
                <!-- show nav-depth-1 -->
                <h3><i></i>LS 600hL</h3>
                <div>
                        <ul>
                              <li>
-                                <a href="#">모델소개<i></i></a>
+                                <a href="#nonemodels1">모델소개<i></i></a>
                              </li>
 
                              <li>
-                                <a href="#">주요특징<i></i></a>
+                                <a href="#nonemodels2">주요특징<i></i></a>
                              </li>
 
                              <li>
-                                <a href="#">디자인<i></i></a>
+                                <a href="#nonemodels3">디자인<i></i></a>
                              </li>
 
                              <li>
-                                <a href="#">스펙&#47;사양<i></i></a>
+                                <a href="#nonemodels4">스펙&#none47;사양<i></i></a>
                              </li>
 
                              <li>
-                                <a href="#">차량가격<i></i></a>
+                                <a href="#nonemodels5">차량가격<i></i></a>
                              </li>
                              <li>
-                                <a href="#">시승신청<i></i></a>
+                                <a href="#nonemodels6">시승신청<i></i></a>
                              </li>
                        </ul>
 
                        <cite>special offer</cite>
                        <ol>
-                         <li>3.50&#37;저금리 운용리스 프로그램 및 10년 20만km엔진오일쿠폰</li>
+                         <li>3.50&#none37;저금리 운용리스 프로그램 및 10년 20만km엔진오일쿠폰</li>
                          <li>500만원 할인 및 10년 20만km엔진오일 쿠폰<br />(17년식 모델에 한함)</li>
                        </ol>
 
                        <div>
-                         <a href="#"><img src="../images/models/gnb/brochure.png" alt="brochure download"></a>
+                         <a href="#none"><img src="../images/models/gnb/brochure.png" alt="brochure download"></a>
                        </div>
 
                        <div>
@@ -814,7 +767,7 @@
                                      <li class="slink1"><a href="https://www.facebook.com/lexusKR" title="https://www.facebook.com/lexusKR" target="_blank" title="페이스북" data-code="out_facebook"><span>페이스북</span></a></li>
                                      <li class="slink2"><a href="http://www.youtube.com/user/lexuskr" title="http://www.youtube.com/user/lexuskr" target="_blank" title="유투브"  data-code="out_youtube"><span>유투브</span></a></li>
                                      <li class="slink3"><a href="http://www.pinterest.com/lexuskorea/" title="http://www.pinterest.com/lexuskorea/" target="_blank" title="핀터레스트"  data-code="out_pinterest"><span>핀터레스트</span></a></li>
-                                     <li class="slink4"><a href="#" target="_blank" title="아이매거진"  title="아이매거진" data-code="out_imagazine"><span>아이매거진</span></a></li>
+                                     <li class="slink4"><a href="#none" target="_blank" title="아이매거진"  title="아이매거진" data-code="out_imagazine"><span>아이매거진</span></a></li>
                                  </ul>
                            </div>
 
@@ -837,7 +790,7 @@
 
   <!-- model -->
     <div id="models" class="model_ls600h">
-     <section class="model_ls600h_1">
+     <section class="model_ls600h_1" id="models1">
 
        <div class="model_ls600h_1_1">
          <div class="lsbg_1"></div>
@@ -878,7 +831,7 @@
        </div>
      </section>
 
-     <section class="model_ls600h_2">
+     <section class="model_ls600h_2" id="models2">
        <div class="model_ls600h_2_title">
          <h2>주요특징</h2>
          <p>
@@ -888,61 +841,61 @@
        <div class="model_ls600h_2_content">
          <ul>
            <li class="tr">
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp5.jpg" alt="5.0L V8 가솔린 엔진">
                <span></span>
              </a>
            </li>
            <li>
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp6.jpg" alt="E-CVT(전자 제어 무단 변속기)">
                <span></span>
              </a>
            </li>
            <li class="tr">
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp7.jpg" alt="풀타임 AWD 시스템">
                <span></span>
              </a>
            </li>
            <li>
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp8.jpg" alt="드라이빙 모드 셀렉터">
                <span></span>
              </a>
            </li>
            <li class="tr">
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp9.jpg" alt="BSM (사각지대 감지장치) / RCTA (후측방 경고 시스템)">
                <span></span>
              </a>
            </li>
            <li>
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp10.jpg" alt="AHS (어댑티브 하이빔 시스템)">
                <span></span>
              </a>
            </li>
            <li class="tr">
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp11.jpg" alt="LED 헤드램프">
                <span></span>
              </a>
            </li>
            <li>
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp12.jpg" alt="중앙 콘솔 컨트롤 시스템 (Center Console Control System)">
                <span></span>
              </a>
            </li>
            <li class="tr">
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp13.jpg" alt="클라이밋 컨시어지 시스템 (Climate Concierge System)">
                <span></span>
              </a>
            </li>
            <li>
-             <a href="#">
+             <a href="#none">
                <img src="../images/models/models/cp/ls_cp14.jpg" alt="Mark Levinson®">
                <span></span>
              </a>
@@ -951,7 +904,7 @@
        </div>
      </section>
 
-     <section class="model_ls600h_3">
+     <section class="model_ls600h_3" id="models3">
 
        <div class="model_ls600h_3_title_ex">
          <h2>디자인</h2>
@@ -1016,52 +969,52 @@
             <div class="model_3_nav_ex">
               <ul>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c1.jpg" alt="SONIC QUARTZ">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c2.jpg" alt="Sonic Silver">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c3.jpg" alt="Sonic Titanium">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c4.jpg" alt="Sleek Ecru Metallic">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c5.jpg" alt="Mercury Gray Mica">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c6.jpg" alt="DEEP BLUE MICA">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c7.jpg" alt="Red Mica Crystal Shine">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c8.png" alt="AMBER CRYSTAL SHINE">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c9.jpg" alt="GRAPHITE BLACK">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/exterior/ls600hl_dg_c10.jpg" alt="Black">
                  </a>
                </li>
@@ -1098,17 +1051,17 @@
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/interior/ls600hl_dg_in_c2.jpg" alt="SONIC QUARTZ">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/interior/ls600hl_dg_in_c3.jpg" alt="SONIC QUARTZ">
                  </a>
                </li>
                <li>
-                 <a href="#">
+                 <a href="#none">
                    <img src="../images/models/models/dg/interior/ls600hl_dg_in_c4.jpg" alt="SONIC QUARTZ">
                  </a>
                </li>
@@ -1127,7 +1080,7 @@
            <div class="model_3_nav_wh">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="#none">
                     <img src="../images/models/models/dg/wheel/ls600hl_dg_wh1.jpg" alt="SONIC QUARTZ">
                   </a>
                 </li>
@@ -1140,7 +1093,7 @@
 
      </section>
 
-     <section class="model_ls600h_4">
+     <section class="model_ls600h_4" id="models4">
        <div class="model_ls600h_4_title">
          <h2>스펙/사양</h2>
          <p>
@@ -1151,14 +1104,14 @@
          <dl>
            <dt>
              <span class="hline"></span>
-             <a href="#">
+             <a href="#none">
                <span>스펙</span>
                <p class="arrow_1">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <div class="spec_cont_wrap">
                <div class="spec_cont_img">
                  <span style="width:26.3%;"><img src="../images/models/models/spec/LS_600_spec_1.jpg" alt="LS600h정면"></span>
@@ -1330,14 +1283,14 @@
            </dd>
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>구동</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>구동</caption>
                <colgroup>
@@ -1362,28 +1315,28 @@
                  <tr>
                    <td class="sell_left">5.0ℓ V8 가솔린 엔진 (D-4S, Dual VVT-i 하이브리드 시스템)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">E-CVT (무단변속기)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">TORSEN LSD 풀타임 기계식 4륜 구동</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -1392,14 +1345,14 @@
 
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>섀시</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>섀시</caption>
                <colgroup>
@@ -1424,73 +1377,73 @@
                  <tr>
                    <td class="sell_left">멀티-링크 서스펜션 (전/후)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">4휠 링크 컨트롤 에어 서스펜션</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">AVS (가변 제어 서스펜션)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">EPS (전자 제어 파워 스티어링)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">VGRS (가변 기어비 스티어링)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">속도 감응 스티어링</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">벤틸레이티드 디스크 브레이크</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">드라이빙 모드 셀렉터 (ECO, COMFORT, NORMAL, SPORT S/S+ 모드)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -1499,14 +1452,14 @@
 
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>외관사양</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>외관사양</caption>
                <colgroup>
@@ -1531,136 +1484,136 @@
                  <tr>
                    <td class="sell_left">FULL-LED 헤드램프 (오토 레벨링 기능 포함)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">LED 데이타임 러닝 램프 (웰커밍 기능 포함)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">LED 프론트 포그 램프</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">오토 라이트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">LED 방향 지시등</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">어댑티브 하이빔 시스템 (AHS)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">LED 리어 컴비네이션 램프</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">에어로 스태빌라이징 핀</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">LED 하이 마운트 스톱 램프</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">자외선 차단 글라스 / 발수 프론트 도어 글라스</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">원터치식 파워 윈도우 및 잼 방지 시스템</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">빗물 감지식 와이퍼 / 헤드램프 클리너</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">전동 접이식 아웃 도어 미러 (열선 내장) 및 눈부심 방지 아웃 도어 미러</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">원터치식 슬라이딩 문 루프</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">19인치 휠 및 245/45R19 타이어</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -1669,14 +1622,14 @@
 
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>내장사양</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>내장사양</caption>
                <colgroup>
@@ -1701,280 +1654,280 @@
                  <tr>
                    <td class="sell_left">옵티트론 미터 및 다중 정보 디스플레이</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">하이브리드 시스템 인디케이터</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">EV Mode</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">우드 트림</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">알칸타라 헤드라이너 인테리어 패키지</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">도어 스커프 플레이트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">가죽 시프트 레버 & 노브</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">All-White LED 무드 조명</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">렉서스 프리미엄 아날로그 시계 (LED 인디케이터 적용)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">가죽 인스트루먼트 패널 (컬러 스티치 적용)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">우드 및 가죽 스티어링 휠</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">열선 스티어링 휠</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">스티어링 휠 및 시트 리턴-어웨이 기능</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">리어 윈도우 파워 선 쉐이드</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">리어 사이드 파워 선 쉐이드</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">원터치식 파워 윈도우 및 잼 방지 시스템</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">눈부심 방지 EC 룸 미러</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 중앙 컨트롤러</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">세미 애널린 최고급 가죽 시트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 VIP 시트 (동반석 확장 슬라이딩 및 헤드레스트 폴딩, 뒷좌석 종아리 지지대)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 VIP 시트 마사지 & 진동 기능</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">열선 시트 (전좌석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">통풍 시트 (전좌석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">운전석 파워시트 & 파워 허리 지지대 (4 Way)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">동반석 파워시트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 파워시트 & 파워 허리 지지대 (2 Way)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">메모리 시트 (전좌석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">운전석 시트 길이 조절</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 버터플라이 헤드레스트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">고정식 센터 암레스트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">우드 테이블</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -1983,14 +1936,14 @@
 
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>안전사양</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>안전사양</caption>
                <colgroup>
@@ -2015,217 +1968,217 @@
                  <tr>
                    <td class="sell_left">SRS 어드밴스드 에어백 (운전석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">SRS 어드밴스드 트윈 챔버 타입 에어백 (동반석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">SRS 무릎 에어백 (운전석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">SRS 무릎 에어백 (동반석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">SRS 사이드 에어백 (전좌석)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">SRS 커튼 실드 에어백</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 VIP 시트 SRS 쿠션 에어백</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">안전벨트 프리텐셔너 / 포스리미터</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">목뼈 손상 방지 시트 (WIL 컨셉 시트)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">운전석 액티브 헤드레스트</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">충돌 안전 차체 구조</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">보행자 충돌 안전 시스템</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">ECB (전자 제어 브레이크)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">BSM (사각지대 감지 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">브레이크 홀드 & 자동주차 브레이크 (버튼식)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">VDIM (차체 역학 통합 제어 시스템)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">VSC (차체 자세 제어 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">TRAC (구동력 제어 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">ABS (바퀴 잠김 방지 제동 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">EBD (전자식 제동력 분배 장치) / BAS (브레이크 보조 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">HAC (경사로 밀림 방지 장치)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">AFS (지능형 헤드램프 시스템)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">AL-TPMS (오토 로케이션 타이어 공기압 감지 시스템)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">차속 감응형 파워 도어 잠금 장치 (충격 감지 도어 잠금 해제)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -2234,14 +2187,14 @@
 
            <dt>
              <span class="line"></span>
-             <a href="#">
+             <a href="#none">
                <span>편의사양</span>
                <p class="arrow">
                  <span></span>
                </p>
              </a>
            </dt>
-           <dd>
+           <dd class="disnon">
              <table>
                <caption>편의사양</caption>
                <colgroup>
@@ -2266,217 +2219,217 @@
                  <tr>
                    <td class="sell_left">LED 웰커밍 라이팅 기능</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">스마트 엔트리 & 스타트 시스템 (전자 키 & 카드 전자키, 푸시 스타트 버튼)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">12.3 인치 초대형 고해상도 EMV 디스플레이</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">첨단 3D 한글 내비게이션 시스템 (TPEG 기능 포함) / 지상파 DMB</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">리모트 터치 컨트롤 (푸시 & 클릭, LED 라이팅 기능 포함)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">Bluetooth® 핸즈 프리</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">크루즈 컨트롤</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">도난 방지 시스템 / 이모빌라이저</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">파워 트렁크 리드 & 이지도어 클로저</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 적외선 체온감지 센서</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">후방 감지 카메라</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">전·후방 주차 센서</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">후진 자동 각도 조절 아웃 도어 미러</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">자동 주차 브레이크 (버튼식)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">Mark Levinson® 7.1 채널 레퍼런스 서라운드 사운드 시스템 (19 스피커)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">In-Dash DVD 기능 (MP3 및 WMA 호환)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 엔터테인먼트 시스템 - 9 모니터(센터콘솔), 블루레이 플레이어, SD 카드 슬롯</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">뒷좌석 엔터테인먼트 시스템 - 9 모니터(천장형), 블루레이 플레이어, SD 카드 슬롯</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">Bluetooth® 오디오 스트리밍</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">USB/AUX 단자 (iPhone, iPod, iPad 및 기타 USB 저장 매체 연결 가능)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">4-존 독립 제어 시스템 (Climate Concierge)</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">첨단 꽃가루 제거 및 탈취 클린 에어 필터</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">자동 재순환 모드 및 외기 온도계</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                  <tr>
                    <td class="sell_left">Nano-e 음이온 발생기</td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                    <td>
-                     <span>checked</span>
+                     <span>check</span>
                    </td>
                  </tr>
                </tbody>
@@ -2486,8 +2439,7 @@
        </div>
      </section>
 
-
-     <section class="model_ls600h_5">
+     <section class="model_ls600h_5" id="models5">
        <div class="model_ls600h_5_title">
          <h2>차량가격</h2>
          <p>
@@ -2500,7 +2452,7 @@
            <ol>
              <li>
                <span class="hline"></span>
-               <a href="#">
+               <a href="#none">
                  <cite>
                    <span>1</span>등급 선택
                  </cite>
@@ -2536,7 +2488,7 @@
              <dl>
                <dd>
                  <p>
-                   <span>&#92;</span>
+                   <span>&#none92;</span>
                    <span>0</span>
                  </p>
                </dd>
@@ -2553,7 +2505,7 @@
        </div>
      </section>
 
-     <section class="model_ls600h_6">
+     <section class="model_ls600h_6" id="models6">
        <div class="model_ls600h_6_title">
          <h2>시승신청</h2>
          <p>
@@ -2566,7 +2518,7 @@
            <ol>
              <li>
                <span class="hline"></span>
-               <a href="#">
+               <a href="#none">
                  <cite>
                    <span>1</span>지역 선택
                  </cite>
@@ -2642,7 +2594,7 @@
              </li>
              <li>
                <span class="line"></span>
-               <a href="#">
+               <a href="#none">
                  <cite><span>2</span>전시장 선택</cite>
                  <p>
                    <span class="arrow_0"></span>
@@ -2870,7 +2822,7 @@
              </li>
              <li>
                <span class="line"></span>
-               <a href="#">
+               <a href="#none">
                  <cite><span>3</span>개인 정보 입력</cite>
                  <p>
                    <span class="arrow_0"></span>
@@ -2943,7 +2895,7 @@
                      <span>
                        <input type="text" id="email-0"/>
                      </span>
-                     <em>&#64;</em>
+                     <em>&#none64;</em>
                      <span style="margin-right:2.5%;">
                        <input type="text" id="email-1">
                      </span>
@@ -2983,12 +2935,12 @@
                        <span>개인 정보 활용 동의(필수)</span>
                      </label>
                    </p>
-                   <a class="more" href="#">자세히 보기
+                   <a class="more" href="#none">자세히 보기
                      <span></span>
                   </a>
                  </div>
                  <p>
-                   <a href="#">시승신청</a>
+                   <a href="#none">시승신청</a>
                  </p>
                </div>
              </li>
@@ -3057,31 +3009,31 @@
           <div class="quick-menu">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="#none">
                       <cite>SPECIAL&nbsp;OFFERS<i></i></cite>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#">
+                    <a href="#none">
                        <cite>시승신청<i></i></cite>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#">
+                    <a href="#none">
                       <cite>차량견적조회<i></i></cite>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#">
+                    <a href="#none">
                       <cite>전시장&amp;서비스센터<i></i></cite>
                     </a>
                   </li>
 
                   <li>
-                    <a href="#">
+                    <a href="#none">
                       <cite>브로슈어&nbsp;다운로드<i></i></cite>
                     </a>
                   </li>
@@ -3094,7 +3046,7 @@
                     <li class="slink1"><a href="https://www.facebook.com/lexusKR" title="https://www.facebook.com/lexusKR" target="_blank" title="페이스북" data-code="out_facebook"><span>페이스북</span></a></li>
                     <li class="slink2"><a href="http://www.youtube.com/user/lexuskr" title="http://www.youtube.com/user/lexuskr" target="_blank" title="유투브"  data-code="out_youtube"><span>유투브</span></a></li>
                     <li class="slink3"><a href="http://www.pinterest.com/lexuskorea/" title="http://www.pinterest.com/lexuskorea/" target="_blank" title="핀터레스트"  data-code="out_pinterest"><span>핀터레스트</span></a></li>
-                    <li class="slink4"><a href="#" target="_blank" title="아이매거진"  title="아이매거진" data-code="out_imagazine"><span>아이매거진</span></a></li>
+                    <li class="slink4"><a href="#none" target="_blank" title="아이매거진"  title="아이매거진" data-code="out_imagazine"><span>아이매거진</span></a></li>
                 </ul>
           </div>
 

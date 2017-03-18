@@ -1472,7 +1472,7 @@ aside div li {
   color: #000;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p.arrow span {
-  background-position: -22px -103px;
+  background-position: -40px -73px;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p {
   position: absolute;
@@ -1480,12 +1480,18 @@ aside div li {
   right: 17px;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p span {
-  outline: 1px #F00 solid;
+  outline: 1px #00F solid;
   background-image: url('../images/btn_group.png');
   background-repeat: no-repeat;
   background-position: -40px -73px;
   display: block;
   height: 8px;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd.disnon {
+  display: none;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd.on {
+  display: block;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd div.spec_cont_wrap {
   padding-bottom: 51px;
@@ -1579,14 +1585,16 @@ aside div li {
   text-align: center;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table tbody tr td span {
-  outline: 1px #F00 solid;
   text-indent: -9999px;
-  background-image: url('../images/btn_group.png');
+  background-image: none;
   background-position: -90px -75px;
   background-repeat: no-repeat;
   display: inline-block;
   width: 18px;
   height: 17px;
+}
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dd table tbody tr td span.on {
+  background-image: url('../images/btn_group.png');
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_title {
   padding-top: 80px;
