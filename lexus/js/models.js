@@ -42,9 +42,22 @@ $(document).ready(function(){
               // 1000의 duration(시간)동안
            });
         });
+
   $('.model_ls600h_4_sp dl dt a').click(function(){
-    $(this).parent().next().toggleClass('on')
+    var dtoggle = $(this).parent().next().toggleClass('on')
     console.log("@@@");
-  });
+    bgArrow(dtoggle);
+  })
+  // function bgArrow(i){
+  //   $('.model_ls600h_4_sp dl dt .arrow').children('span').eq(i).css({
+  //     'background-position':'-22px -103px',
+  //     'outline':'1px #F00 solid'
+  //   })
+  //   console.log('aa')
+  // }
+  function bgArrow(i){
+    $('.model_ls600h_4_sp dl dt p.arrow').eq(i).css('display','none').addClass('arrow_1').siblings().removeClass('arrow_1')
+      console.log('aabb')
+  }
 
 });
