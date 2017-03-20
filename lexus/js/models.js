@@ -7,6 +7,8 @@ $(document).ready(function(){
   });
 
 
+
+
   $('.model_3_nav_ex').on('click','li a',function(){
     var nav_ex = $(this).parent().index();
     shose(nav_ex);
@@ -57,9 +59,7 @@ $(document).ready(function(){
   // }
 
   $('.model_ls600h_4_sp dl dt a').click(function(){
-    $(this).children().find('p').removeClass().addClass('arrow_1').css(
-      'display','block').siblings().removeClass('arrow_1')
-    console.log('asas')
+    $(this).find('p.arrToggle').toggle();
   })
 
   // $('.model_ls600h_4_sp dl dt a').click(function(){
