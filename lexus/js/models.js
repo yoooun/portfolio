@@ -44,20 +44,27 @@ $(document).ready(function(){
         });
 
   $('.model_ls600h_4_sp dl dt a').click(function(){
-    var dtoggle = $(this).parent().next().toggleClass('on')
+    $(this).parent().next().toggleClass('on')
     console.log("@@@");
-    bgArrow(dtoggle);
+
   })
-  // function bgArrow(i){
+
   //   $('.model_ls600h_4_sp dl dt .arrow').children('span').eq(i).css({
-  //     'background-position':'-22px -103px',
-  //     'outline':'1px #F00 solid'
-  //   })
-  //   console.log('aa')
+
+  // function bgArrow(i){
+  //   $('.model_ls600h_4_sp dl dt a').addClass('arrow_1').siblings().removeClass('arrow_1')
+  //     console.log('aabb')
   // }
-  function bgArrow(i){
-    $('.model_ls600h_4_sp dl dt p.arrow').eq(i).css('display','none').addClass('arrow_1').siblings().removeClass('arrow_1')
-      console.log('aabb')
-  }
+
+  $('.model_ls600h_4_sp dl dt a').click(function(){
+    $(this).children().find('p').removeClass().addClass('arrow_1').css(
+      'display','block').siblings().removeClass('arrow_1')
+    console.log('asas')
+  })
+
+  // $('.model_ls600h_4_sp dl dt a').click(function(){
+  //   $(this).children().find('p').toggleClass('arrow_1')
+  //   console.log('qwer11')
+  // })
 
 });

@@ -1471,15 +1471,21 @@ aside div li {
   padding-left: 10px;
   color: #000;
 }
-.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p.arrow_1 span {
+.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p.arrow_1 {
+  position: absolute;
+  top: 24px;
+  right: 17px;
+  outline: 1px #00F solid;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
   background-position: -22px -103px;
+  display: block;
+  height: 8px;
 }
 .model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p.arrow {
   position: absolute;
   top: 24px;
   right: 17px;
-}
-.model_ls600h .model_ls600h_4 .model_ls600h_4_sp dl dt a p.arrow span {
   outline: 1px #00F solid;
   background-image: url('../images/btn_group.png');
   background-repeat: no-repeat;
