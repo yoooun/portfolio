@@ -59,7 +59,8 @@ $(document).ready(function(){
   // }
 
   $('.model_ls600h_4_sp dl dt a').click(function(){
-    $(this).find('p.arrToggle').toggle();
+      // 주석추가
+      $(this).find('p.arrToggle').toggle();
   })
 
   // $('.model_ls600h_4_sp dl dt a').click(function(){
