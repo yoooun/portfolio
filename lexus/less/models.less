@@ -523,35 +523,33 @@
                 position:absolute;
                 top:24px;
                 right:17px;
-                // span{
+                span{
                   background-position:-22px -103px;
-                  outline: 1px #00F solid;
                   background-image:url('../images/btn_group.png');
                   background-repeat: no-repeat;
                   background-position:-22px -103px;
                   display:block;
                   height:8px;
-                // }
+                }
               }
               p.arrow{
                 position:absolute;
                 top:24px;
                 right:17px;
-                // span{
-                  outline: 1px #00F solid;
+                span{
                   background-image:url('../images/btn_group.png');
                   background-repeat: no-repeat;
                   background-position:-40px -73px;
                   display:block;
                   // width:10px;
                   height:8px;
-                // }
+                }
               }
             }
           }
-          // dt.arrow_1{
-          //
-          // }
+          dd.off{
+            display:none;
+          }
           dd.disnon{
             display:none;
           }
@@ -664,6 +662,7 @@
                       display:inline-block;
                       width:18px;
                       height:17px;
+                      background-image:url('../images/btn_group.png');
                       &.on{
                         background-image:url('../images/btn_group.png');
                       }
@@ -711,24 +710,45 @@
                 height:5px;
                 background-color:#000;
               }
+              span.line{
+                display:block;
+                height:1px;
+                background-color:#000;
+              }
               a{
                 position:relative;
                 display:block;
                 padding:16px 10px;
                 margin-top:8px;
+                cite.color0{
+                  color:#000;
+                  span{
+                    color:#000;
+                  }
+                }
                 cite{
                   font-size:14px;
                   font-weight:bold;
+                  color:#bbb;
                   span{
                     display:inline-block;
                     width:30px;
+                    color:#bbb;
                   }
                 }
                 p{
                   position:absolute;
                   top:15px;
                   right:10px;
-                  span{
+                  span.arrow{
+                    background-image:url('../images/btn_group.png');
+                    background-position:-55px -76px;
+                    background-repeat:no-repeat;
+                    display:inline-block;
+                    width:10px;
+                    height:7px;
+                  }
+                  span.arrow_2{
                     background-image:url('../images/btn_group.png');
                     background-position:-40px -76px;
                     background-repeat:no-repeat;
@@ -737,6 +757,9 @@
                     height:7px;
                   }
                 }
+              }
+              ul.off{
+                display:none;
               }
               ul{
                 padding:30px 0;
@@ -748,7 +771,8 @@
                   p{
                     width:130px;
                     input{
-                      visibility:hidden;
+                      outline:1px #F00 solid;
+                      // visibility:hidden;
                     }
                       label{
                         position: relative;
@@ -882,7 +906,15 @@
                   position:absolute;
                   top:15px;
                   right:10px;
-                  span{
+                  span.arrow{
+                    background-image:url('../images/btn_group.png');
+                    background-position:-55px -76px;
+                    background-repeat:no-repeat;
+                    display:inline-block;
+                    width:10px;
+                    height:7px;
+                  }
+                  span.arrow_2{
                     background-image:url('../images/btn_group.png');
                     background-position:-40px -76px;
                     background-repeat:no-repeat;
@@ -892,13 +924,18 @@
                   }
                 }
               }
+              ul.disnon{
+                display:none;
+              }
+              ul.on{
+                display:block;
+              }
               ul{
                 padding:30px 0;
                 li{
                   display:inline-block;
                   padding:15px 0 0 20px;
                   font-size: 0.75em;
-
                   p{
                     width:130px;
                     input{
@@ -924,6 +961,12 @@
             }
             li{
               display: block;
+              span.hline{
+                margin-top:5px;
+                display:block;
+                height:5px;
+                background:#000;
+              }
               span.line{
                 margin-top:5px;
                 display:block;
@@ -936,6 +979,12 @@
                 padding:16px 10px 16px;
                 color:#bbb;
                 font-size:14px;
+                cite.color0{
+                  color:#000;
+                  span{
+                    color:#000;
+                  }
+                }
                 cite{
                   color:#bbb;
                   span{
@@ -951,10 +1000,15 @@
                   }
                 }
               }
+              div.on{
+                display:block;
+              }
               .psinfo{
                 padding-top:30px;
                 height:auto;
+                display:none;
                 dl{
+                  display:block;
                   padding:36px 0 0 10px;
                   dt{
                     float:left;
