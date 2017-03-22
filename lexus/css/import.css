@@ -800,12 +800,9 @@ aside div li {
   float: left;
   border-bottom: 1px #e0e0e0 solid;
 }
-#submit .submit_1 .submit_1_cont div ol li {
-  display: block;
-}
 #submit .submit_1 .submit_1_cont div ol li span.hline {
   display: block;
-  height: 6px;
+  height: 5px;
   background-color: #000;
 }
 #submit .submit_1 .submit_1_cont div ol li span.line {
@@ -816,30 +813,77 @@ aside div li {
 #submit .submit_1 .submit_1_cont div ol li a {
   position: relative;
   display: block;
+  padding: 16px 10px;
   margin-top: 8px;
-  padding: 16px 10px 16px;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite.color0 {
   color: #000;
-  font-size: 14px;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite.color0 span {
+  color: #000;
 }
 #submit .submit_1 .submit_1_cont div ol li a cite {
+  font-size: 14px;
+  font-weight: bold;
+  color: #bbb;
+  width: auto;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite span {
   display: inline-block;
   width: 30px;
+  color: #bbb;
 }
 #submit .submit_1 .submit_1_cont div ol li a p {
   position: absolute;
   top: 15px;
   right: 10px;
 }
-#submit .submit_1 .submit_1_cont div ol li a p span.arrow.sele_arr {
-  background-position: -40px -76px;
-}
 #submit .submit_1 .submit_1_cont div ol li a p span.arrow {
-  display: block;
-  width: 10px;
-  height: 10px;
   background-image: url('../images/btn_group.png');
-  background-repeat: no-repeat;
   background-position: -55px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow_2 {
+  background-image: url('../images/btn_group.png');
+  background-position: -40px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.off {
+  display: none;
+}
+#submit .submit_1 .submit_1_cont div ol li ul {
+  padding: 30px 0;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li {
+  display: inline-block;
+  padding: 15px 0 0 20px;
+  font-size: 0.75em;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li p {
+  width: 130px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li p input {
+  visibility: hidden;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li p label {
+  position: relative;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li p label em {
+  display: inline-block;
+  background-image: url('../images/btn_group.png');
+  background-position: -132px -99px;
+  width: 15px;
+  height: 15px;
+  margin-left: -26px;
+  margin-right: 10px;
+  position: absolute;
+  top: -3px;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area {
   height: 473px;

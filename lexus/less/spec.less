@@ -32,10 +32,9 @@
           float:left;
           border-bottom:1px #e0e0e0 solid;
           li{
-            display:block;
             span.hline{
               display:block;
-              height:6px;
+              height:5px;
               background-color:#000;
             }
             span.line{
@@ -46,28 +45,76 @@
             a{
               position:relative;
               display:block;
+              padding:16px 10px;
               margin-top:8px;
-              padding:16px 10px 16px;
-              color:#000;
-              font-size:14px;
+              cite.color0{
+                color:#000;
+                span{
+                  color:#000;
+                }
+              }
               cite{
-                display:inline-block;
-                width:30px;
+                font-size:14px;
+                font-weight:bold;
+                color:#bbb;
+                width:auto;
+                span{
+                  display:inline-block;
+                  width:30px;
+                  color:#bbb;
+                }
               }
               p{
                 position:absolute;
                 top:15px;
                 right:10px;
-                span.arrow.sele_arr{
-                  background-position:-40px -76px;
-                }
                 span.arrow{
-                  display:block;
-                  width:10px;
-                  height:10px;
                   background-image:url('../images/btn_group.png');
-                  background-repeat:no-repeat;
                   background-position:-55px -76px;
+                  background-repeat:no-repeat;
+                  display:inline-block;
+                  width:10px;
+                  height:7px;
+                }
+                span.arrow_2{
+                  background-image:url('../images/btn_group.png');
+                  background-position:-40px -76px;
+                  background-repeat:no-repeat;
+                  display:inline-block;
+                  width:10px;
+                  height:7px;
+                }
+              }
+            }
+            ul.off{
+              display:none;
+            }
+            ul{
+              padding:30px 0;
+              li{
+                display:inline-block;
+                padding:15px 0 0 20px;
+                font-size: 0.75em;
+
+                p{
+                  width:130px;
+                  input{
+                    visibility:hidden;
+                  }
+                    label{
+                      position: relative;
+                      em{
+                        display:inline-block;
+                        background-image:url('../images/btn_group.png');
+                        background-position:-132px -99px;
+                        width:15px;
+                        height:15px;
+                        margin-left:-26px;
+                        margin-right:10px;
+                        position:absolute;
+                        top:-3px;
+                      }
+                    }
                 }
               }
             }
@@ -124,6 +171,8 @@
               }
             }
           }
+
+
         }
         .checkzone{
           width:300px;
