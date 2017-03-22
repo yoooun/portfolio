@@ -631,6 +631,8 @@ aside div li {
 }
 #submit .submit_1 .submit_1_cont div ol li a cite {
   display: inline-block;
+}
+#submit .submit_1 .submit_1_cont div ol li a cite span {
   width: 30px;
 }
 #submit .submit_1 .submit_1_cont div ol li a p {
@@ -638,16 +640,33 @@ aside div li {
   top: 15px;
   right: 10px;
 }
-#submit .submit_1 .submit_1_cont div ol li a p span.arrow.sele_arr {
-  background-position: -40px -76px;
-}
 #submit .submit_1 .submit_1_cont div ol li a p span.arrow {
-  display: block;
-  width: 10px;
-  height: 10px;
   background-image: url('../images/btn_group.png');
-  background-repeat: no-repeat;
   background-position: -55px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+#submit .submit_1 .submit_1_cont div ol li a p span.arrow_2 {
+  background-image: url('../images/btn_group.png');
+  background-position: -40px -76px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+#submit .submit_1 .submit_1_cont div ol li div.disnon {
+  display: none;
+}
+#submit .submit_1 .submit_1_cont div ol li div.on {
+  display: block;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.disnon {
+  display: none;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.on {
+  display: block;
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area {
   height: 473px;
@@ -702,6 +721,145 @@ aside div li {
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
   padding-left: 6px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo {
+  padding-top: 30px;
+  height: auto;
+  display: none;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl {
+  display: block;
+  padding: 36px 0 0 10px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dt {
+  float: left;
+  width: 25%;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dt label {
+  display: inline-block;
+  width: 60px;
+  padding-left: 30px;
+  font-size: 13px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd {
+  display: inline-block;
+  width: 75%;
+  height: 30px;
+  padding-bottom: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd span {
+  display: inline-block;
+  width: 65.5%;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd span input {
+  display: inline-block;
+  padding: 0 2%;
+  width: 100%;
+  height: 30px;
+  border: 1px #bbb solid;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd select {
+  padding: 0 0 0 1%;
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  -webkit-appearance: menulist;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd.email-holder span {
+  width: 28%;
+  height: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo dl dd.email-holder em {
+  margin-left: 1.5%;
+  width: 5.1%;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo ul {
+  padding: 0 0 30px 30px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo ul li {
+  padding: 0 6px 3px 12px;
+  line-height: 1.3;
+  display: list-item;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo ul li em {
+  display: inline-block;
+  width: 4px;
+  height: 12px;
+  background-image: url('../images/sprite_bul_pat.png');
+  background-repeat: no-repeat;
+  background-position: 0 -12px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree {
+  padding: 0 0 17px 30px;
+  height: auto;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree p {
+  width: 160px;
+  display: inline-block;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree p input {
+  width: 13px;
+  height: 13px;
+  visibility: hidden;
+  position: relative;
+  top: 20px;
+  left: -28px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree p label {
+  display: inline-block;
+  vertical-align: top;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree p label em {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
+  background-position: -90px -99px;
+  margin-left: -26px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree p label span {
+  font-size: 0.75em;
+  letter-spacing: -0.8px;
+  color: #666;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree a.more {
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 2px 0 1px 0;
+  margin-top: 0;
+  color: #666;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo .more-info-agree a.more span {
+  background-image: url('../images/sprite_bul_pat.png');
+  background-repeat: no-repeat;
+  background-position: 0 -31px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo p {
+  padding-bottom: 30px;
+}
+#submit .submit_1 .submit_1_cont div ol li .psinfo p a {
+  display: block;
+  padding: 21px 0 19px;
+  font-size: 20px;
+  color: #FFF;
+  background-color: #000;
+  font-weight: bold;
+  text-align: center;
 }
 #submit .submit_1 .submit_1_cont div .checkzone {
   width: 300px;

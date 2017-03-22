@@ -98,9 +98,6 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
     $(this).parent().children('span.lineToggle_pr').toggle()
   })
 
-  $('.model_ls600h_6_cont_req ol li a').click(function(){
-    $(this).next().toggleClass('on')
-  })
 
   //count
   $('.model_ls600h_5_cont_price li input.count-1').click(function(){
