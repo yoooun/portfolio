@@ -710,7 +710,16 @@ aside div li {
   display: inline-block;
   margin-left: -29px;
 }
-#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em {
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em.bef {
   background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
   background-repeat: no-repeat;
@@ -1213,7 +1222,7 @@ aside div li {
   position: absolute;
   background-image: url('../images/models/models/mi/ls600h_mi1_bg.jpg');
   width: 100%;
-  height: 950px;
+  height: 100%;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1224,6 +1233,8 @@ aside div li {
   left: 60px;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 span {
+  background-image: url('../images/models/models/mi/ls600h_mi1_title1.png');
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -1231,6 +1242,8 @@ aside div li {
   height: 30px;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 h3 {
+  background-image: url('../images/models/models/mi/ls600h_mi1_title2.png');
+  background-repeat: no-repeat;
   position: absolute;
   top: 60px;
   left: -10px;
@@ -1238,6 +1251,8 @@ aside div li {
   height: 59px;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 strong {
+  background-image: url('../images/models/models/mi/ls600h_mi1_title3.png');
+  background-repeat: no-repeat;
   position: absolute;
   top: 118px;
   left: -11px;
@@ -1245,6 +1260,8 @@ aside div li {
   height: 42px;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 p {
+  background-image: url('../images/models/models/mi/ls600h_mi1_title4.png');
+  background-repeat: no-repeat;
   position: absolute;
   top: 150px;
   left: -11px;
@@ -1911,21 +1928,28 @@ aside div li {
   width: 130px;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p input {
-  outline: 1px #F00 solid;
+  visibility: hidden;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label {
   position: relative;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label em {
-  display: inline-block;
   background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
-  width: 15px;
-  height: 15px;
-  margin-left: -26px;
-  margin-right: 10px;
-  position: absolute;
-  top: -3px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price ol li ul li p label em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone {
   width: 300px;
@@ -1945,6 +1969,9 @@ aside div li {
   background: #000;
   height: 6px;
 }
+.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd p span {
+  display: none;
+}
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child {
   padding-bottom: 30px;
   display: block;
@@ -1959,11 +1986,7 @@ aside div li {
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child p span {
   width: 17%;
   float: left;
-  display: block;
-}
-.model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd:first-child p span:last-child {
-  width: 83%;
-  text-align: right;
+  display: none;
 }
 .model_ls600h .model_ls600h_5 .model_ls600h_5_cont .model_ls600h_5_cont_price .checkzone dl dd.b_box p {
   background-image: url('../images/models/models/bluebox.jpg');
@@ -2078,15 +2101,22 @@ aside div li {
   position: relative;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p label em {
-  display: inline-block;
   background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
-  width: 15px;
-  height: 15px;
-  margin-left: -26px;
-  margin-right: 10px;
-  position: absolute;
-  top: -3px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li ul li p label em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li {
   display: block;
@@ -2383,6 +2413,12 @@ aside div li {
   left: 0;
   height: 710px;
 }
+#concept .concept_2 figure.con_cont_2 ul li.pic_con {
+  display: block;
+}
+#concept .concept_2 figure.con_cont_2 ul li {
+  display: none;
+}
 #concept .concept_2 figure.con_cont_2 ul {
   height: 100%;
 }
@@ -2421,6 +2457,7 @@ aside div li {
   position: absolute;
   top: -50px;
   left: 50%;
+  z-index: 1;
 }
 #concept .concept_2 .slide_bttom_btn ul li.on a {
   background-position: -10px 0;
@@ -2439,6 +2476,7 @@ aside div li {
 #concept .concept_2 p.slide_arrow .prev {
   position: absolute;
   top: 40%;
+  z-index: 1;
 }
 #concept .concept_2 p.slide_arrow .next {
   position: absolute;
@@ -2457,7 +2495,7 @@ aside div li {
   margin: 0 auto;
 }
 #concept .concept_2 .navi_tabs_wrap ul li.abtop {
-  top: -34px;
+  top: -38px;
 }
 #concept .concept_2 .navi_tabs_wrap ul li {
   position: relative;
@@ -2469,10 +2507,12 @@ aside div li {
 }
 #concept .concept_2 .navi_tabs_wrap ul li a {
   font-size: 15px;
+  color: #000;
 }
 #concept .concept_2 .navi_tabs_wrap ul li a p {
   font-size: 13px;
   padding-top: 24px;
+  color: #999;
 }
 #concept .concept_3 {
   position: relative;

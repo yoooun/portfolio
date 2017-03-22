@@ -20,4 +20,14 @@ $(document).ready(function(){
     $('.submit_1_cont ol li a').click(function(){
       $(this).parent().children('span.lineToggle_pr').toggle()
     })
+  //(1)btn 클릭
+    $('ul.content-area em').click(function(){
+      $(this).toggleClass('aft').removeClass('bef')
+      console.log("aa")
+    })
+    //그 외 btn 클릭
+      $('ul.emBtn em').click(function(){
+        $(this).toggleClass('aft').removeClass('bef')
+        console.log("aa")
+      })
 })

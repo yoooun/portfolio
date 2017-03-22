@@ -52,6 +52,16 @@ $(function(){
         }else{
             return
         }
-
     });
+    // 자동차 종류 바뀜
+    // 네비 li
+      $('.navi_tabs_wrap').on('click','li a',function(){
+        var nav_conc = $(this).parent().index();
+        console.log('asdasd')
+        imgChange(nav_conc);
+      })
+      function imgChange(i){
+        $('.concept_2 figure').children('ul').children('li').eq(i).addClass('pic_con').siblings().removeClass('pic_con')
+      }
+      console.log('qwer')
 });

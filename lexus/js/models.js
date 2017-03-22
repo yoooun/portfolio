@@ -100,29 +100,13 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
 
 
   //count
-  $('.model_ls600h_5_cont_price li input.count-1').click(function(){
-    console.log("1");
-    $('.checkzone .count-1').css('display','block').prop('Counter',0).animate({
-      Counter:$(this).text()
-    },{
-      duration : 4000,
-      easing:'swing',
-      step:function(now){
-        $(this).text(Math.ceil(now));
-      }
-    })
-  })
-  $('.model_ls600h_5_cont_price li input.count-2').click(function(){
-    console.log("22");
-    $('.checkzone .count-2').css('display','block').prop('Counter',0).animate({
-      Counter:$(this).text()
-    },{
-      duration : 4000,
-      easing:'swing',
-      step:function(now){
-        $(this).text(Math.ceil(now));
-      }
-    })
+
+  var idx
+  $('.model_ls600h_5_cont_price em').click(function(){
+     idx= $(this).parents('li').index();
+    console.log("em idx : "+ idx);
+    $('.checkzone dl dd p span').eq(idx).css('display','block').siblings().css('display','none')
+     console.log("22");
   })
   //
   // $('span.1').click(function(){
@@ -148,6 +132,41 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
 //    }
 // });
 // });
+
+//section6_btn 클릭
+  $('.model_ls600h_6_cont_req ul li em').click(function(){
+    $(this).toggleClass('aft')
+    console.log("aa")
+  })
+
+
+  $('.model_ls600h_5_cont_price em').click(function(){
+    $(this).toggleClass('aft')
+    console.log("aa")
+  })
+
+
+
+  //페럴렉스
+
+  $(document).ready(function(){
+  	$('.lsbg_1').parallax("10%", 0);
+    // $('.lstext_1 h3').parallax("10%", 0.02);
+    // $('.lstext_1 strong').parallax("50%", 0);
+    // $('.lstext_1 p').parallax("50%", 0);
+    $('.lsbg_2').parallax("10%", 0.5);
+    $('.lsbg_3').parallax("10%", 0.5);
+    $('.lsbg_4').parallax("10%", 0.5);
+    $('.lsbg_5').parallax("10%", 0.5);
+
+
+
+  })
+
+
+
+
+
 
 
 });
