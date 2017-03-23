@@ -635,6 +635,9 @@ aside div li {
 #submit .submit_1 .submit_1_cont div ol li a cite span {
   width: 30px;
 }
+#submit .submit_1 .submit_1_cont div ol li a cite.color0 {
+  color: #000;
+}
 #submit .submit_1 .submit_1_cont div ol li a p {
   position: absolute;
   top: 15px;
@@ -719,7 +722,7 @@ aside div li {
   height: 16px;
   vertical-align: middle;
 }
-#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em.bef {
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em {
   background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
   background-repeat: no-repeat;
@@ -1218,6 +1221,18 @@ aside div li {
   position: relative;
   height: 950px;
 }
+.model_ls600h .model_ls600h_1 .model_ls600h_1_1 .btn-next-arr {
+  position: absolute;
+  bottom: 30px;
+  left: 49%;
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  width: 34px;
+  height: 60px;
+  background: url('../images/models/models/btn-next-arr.png') 0 0 no-repeat;
+  position: fixed;
+}
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lsbg_1 {
   position: absolute;
   background-image: url('../images/models/models/mi/ls600h_mi1_bg.jpg');
@@ -1245,35 +1260,38 @@ aside div li {
   background-image: url('../images/models/models/mi/ls600h_mi1_title2.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 60px;
+  top: -70px;
   left: -10px;
   width: 240px;
-  height: 59px;
+  height: 100%;
+  transition: 0.5s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 strong {
   background-image: url('../images/models/models/mi/ls600h_mi1_title3.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 118px;
+  top: 0;
   left: -11px;
   width: 341px;
-  height: 42px;
+  height: 100%;
+  transition: 0.5s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 p {
   background-image: url('../images/models/models/mi/ls600h_mi1_title4.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 150px;
+  top: 40px;
   left: -11px;
   width: 316px;
-  height: 57px;
+  height: 100%;
+  transition: 0.5s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_2 {
   position: relative;
   height: 800px;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_2 .lsbg_2 {
-  position: absolute;
+  position: relative;
   background-image: url('../images/models/models/mi/ls600h_mi2_bg.jpg');
   width: 100%;
   height: 800px;
@@ -1286,14 +1304,16 @@ aside div li {
   top: 110px;
   right: 79px;
   width: 539px;
-  height: 106px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_2 .lstext_2 p {
   position: absolute;
   top: 226px;
   right: 442px;
   width: 176px;
-  height: 32px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_3 {
   position: relative;
@@ -1313,14 +1333,16 @@ aside div li {
   top: 110px;
   left: 50px;
   width: 539px;
-  height: 106px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_3 .lstext_3 p {
   position: absolute;
   top: 226px;
   left: 50px;
   width: 176px;
-  height: 32px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_4 {
   position: relative;
@@ -1340,14 +1362,16 @@ aside div li {
   top: 530px;
   right: 113px;
   width: 512px;
-  height: 106px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_4 .lstext_4 p {
   position: absolute;
   top: 646px;
   right: 412px;
   width: 209px;
-  height: 30px;
+  height: 100%;
+  transition: 1s;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_5 {
   position: relative;
@@ -1419,6 +1443,182 @@ aside div li {
   *zoom: 1;
   position: absolute;
   bottom: 0;
+}
+.model_ls600h .popup_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.model_ls600h .popup_wrap .popup_content {
+  position: relative;
+  top: 0;
+  width: 68%;
+  width: 1100px;
+  height: 716px;
+  margin-left: 400px;
+  margin-top: 117px;
+  background-color: #fff;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner {
+  height: 637px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  height: 637px;
+  position: absolute;
+  display: none;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1:first-child {
+  display: block;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .pic {
+  display: block;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor {
+  position: absolute;
+  top: 420px;
+  left: 0;
+  height: 217px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p {
+  margin: 0 30px;
+  height: 77px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p > span {
+  font-weight: bold;
+  display: block;
+  height: 27px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 22px;
+  color: #222;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div {
+  font-size: 14px;
+  height: 138px;
+  margin: 0 2px 0 30px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div > p {
+  font-size: 14px;
+  color: #777;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn {
+  height: 18px;
+  margin: 0 30px;
+  padding: 30px 0;
+  border-top: 1px solid #d2d2d2;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn span {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  height: 12px;
+  padding: 2px 0;
+  color: #333;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .next {
+  float: right;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .next .next_btn {
+  right: 0;
+  background-position: -51px -193px;
+  background-image: url('../images/models/models/cp/btn_group.png');
+  background-repeat: no-repeat;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .next span {
+  padding-right: 12px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .prev {
+  float: left;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .prev .prev_btn {
+  background-position: 0 -193px;
+  background-image: url('../images/models/models/cp/btn_group.png');
+  background-repeat: no-repeat;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .prev span {
+  padding-left: 12px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn a {
+  display: block;
+  position: relative;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn a .icon {
+  display: block;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  background: url(../image/PERFORMANCE/sprite_common.png) repeat;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .page_number {
+  position: relative;
+  top: 0px;
+  width: 100px;
+  height: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .page_number span:nth-child(2) {
+  display: inline-block;
+  color: #999;
+  padding: 0 0 0 2px;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .page_number > span {
+  display: inline-block;
+  color: #222;
+}
+.model_ls600h .popup_wrap .popup_content .popup_btn .page_number em {
+  display: inline-block;
+  color: #222;
+  padding: 0 2px;
+}
+.model_ls600h .popup_wrap .popup_content .close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+.model_ls600h .popup_wrap .popup_content .close_btn a {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+.model_ls600h .popup_wrap .popup_content .close_btn a span {
+  text-indent: -99999px;
+  font-size: 0px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 20px 0 0 20px;
+  background: url(../images/models/models/cp/btn_group.png) no-repeat -95px -163px;
+}
+.model_ls600h .blind {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../image/PERFORMANCE/bg_overlay.png) repeat 0 0;
+  z-index: 5;
 }
 .model_ls600h .model_ls600h_3 .model_ls600h_3_title_ex {
   position: relative;
@@ -2036,6 +2236,12 @@ aside div li {
   width: 1243px;
   margin-right: 60px;
   padding-bottom: 5px;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li.disblo {
+  display: block;
+}
+.model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li {
+  display: none;
 }
 .model_ls600h .model_ls600h_6 .model_ls600h_6_cont .model_ls600h_6_cont_req ol li span.hline {
   display: block;
@@ -3469,6 +3675,15 @@ aside div li {
 #news .news_cont ul.pic_list_wrap li a span img {
   width: 100%;
 }
+#news .news_cont ul.pic_list_wrap li a span em {
+  position: absolute;
+  top: -33px;
+  right: 0;
+  width: 46px;
+  height: 46px;
+  background-image: url('../images/btn_group.png');
+  background-position: -46px -355px;
+}
 #news .news_cont ul.pic_list_wrap li a p.text_wrap {
   letter-spacing: 0.2px;
   word-spacing: 1.5px;
@@ -3497,7 +3712,158 @@ aside div li {
 #news .news_cont ul.pic_list_wrap li.last_col {
   margin-right: 0;
 }
-#news .news_cont p a {
+#news .news_cont .popup_wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+#news .news_cont .popup_wrap .popup_content {
+  position: relative;
+  top: 0;
+  width: 68%;
+  width: 660px;
+  height: 718px;
+  margin-left: 680px;
+  margin-top: 117px;
+  background-color: #fff;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner {
+  height: 718px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  height: 718px;
+  position: absolute;
+  display: block;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .pic {
+  display: block;
+  width: 660px;
+  height: 390px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .pic img {
+  width: 100%;
+  height: 100%;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor {
+  position: absolute;
+  top: 390px;
+  left: 0;
+  height: 217px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p {
+  margin: 0 30px;
+  height: 77px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > p > span {
+  font-weight: bold;
+  display: block;
+  height: 27px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 22px;
+  color: #222;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div {
+  font-size: 14px;
+  height: 138px;
+  margin: 0 2px 0 30px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_inner .slide .slide_1 .infor > div > p {
+  font-size: 14px;
+  color: #777;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn {
+  position: relative;
+  top: -70px;
+  height: 18px;
+  margin: 0 30px;
+  padding: 30px 0;
+  border-top: 1px solid #d2d2d2;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn span {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  height: 12px;
+  padding: 2px 0;
+  color: #333;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn .next {
+  float: right;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn .next .next_btn {
+  right: 0;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn .next span {
+  padding-right: 12px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn .prev {
+  float: left;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn .prev span {
+  padding-left: 12px;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn a {
+  display: block;
+  position: relative;
+}
+#news .news_cont .popup_wrap .popup_content .popup_btn a .icon {
+  display: block;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+}
+#news .news_cont .popup_wrap .popup_content .close_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+}
+#news .news_cont .popup_wrap .popup_content .close_btn a {
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+#news .news_cont .popup_wrap .popup_content .close_btn a span {
+  text-indent: -99999px;
+  font-size: 0px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 20px 0 0 20px;
+  background-image: url('../images/btn_group.png');
+  background-repeat: no-repeat;
+  background-position: -70px -163px;
+}
+#news .news_cont .popup_wrap .blind {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../image/PERFORMANCE/bg_overlay.png) repeat 0 0;
+  z-index: 5;
+}
+#news .news_cont .popup_wrap p a {
   display: inline-block;
   width: 100%;
   height: 60px;

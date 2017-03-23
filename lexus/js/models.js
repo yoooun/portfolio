@@ -1,6 +1,10 @@
 $(document).ready(function(){
 
-
+//
+  $('.model_ls600h_1_1 .btn-next-arr').on('click',function(){
+      $('html,body').animate({scrollTop:'0'+'950px'},930);
+      console.log('123')
+  });
 //디자인 자동차 회전
   var idx = 0;
   $('.hover div').mouseenter(function(){
@@ -97,6 +101,11 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
   $('.model_ls600h_6_cont_req ol li a').click(function(){
     $(this).parent().children('span.lineToggle_pr').toggle()
   })
+//표 다음으로 넘어가기
+  $('.model_ls600h_6_cont_req ol li em').click(function(){
+    $(this).parent('label').parent('p').parent('li').parent('ul').parent('li').next('li').addclass('disblo').siblings().removeClass('disblo')
+    console.log('asas')
+  })
 
 
   //count
@@ -150,18 +159,156 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
   //페럴렉스
 
   $(document).ready(function(){
-  	$('.lsbg_1').parallax("10%", 0);
-    // $('.lstext_1 h3').parallax("10%", 0.02);
-    // $('.lstext_1 strong').parallax("50%", 0);
-    // $('.lstext_1 p').parallax("50%", 0);
-    $('.lsbg_2').parallax("10%", 0.5);
-    $('.lsbg_3').parallax("10%", 0.5);
-    $('.lsbg_4').parallax("10%", 0.5);
-    $('.lsbg_5').parallax("10%", 0.5);
+  	$('.lsbg_1').parallax("50%", 0);
+    $('.lstext_1 h3').parallax("50%", 0.2);
+    $('.lstext_1 strong').parallax("50%", 0.2);
+    $('.lstext_1 p').parallax("50%", 0.2);
+
+    $('.lstext_2 h4').parallax("80%", 0.002);
+    $('.lstext_2 p').parallax("30%", 20);
+
+    $('.lstext_3 h4').parallax("50%", 0.2);
+    $('.lstext_3 p').parallax("50%", 0.2);
+
+    $('.lstext_4 h4').parallax("50%", 0.4);
+    $('.lstext_4 p').parallax("50%", 0.2);
 
 
 
+
+    // $('.lsbg_2').parallax("10%", 0.5);
+    // $('.lsbg_3').parallax("10%", 0.5);
+    // $('.lsbg_4').parallax("10%", 0.5);
+    // $('.lsbg_5').parallax("10%", 0.5);
   })
+
+  $(function(){
+
+    $(window).scroll(function(){
+        var st = $(window).scrollTop();
+        // 모델 페이지
+        // lsbg_1 부분
+        if(st > 100 ){
+          $('.model_ls600h_1 h3').css('opacity', '0')
+      }else if(st <= 100 ){
+          $('.model_ls600h_1 h3').css('opacity', '1')
+        }
+
+        if(st > 100 ){
+          $('.model_ls600h_1 strong').css('opacity', '0')
+      }else if(st <= 100 ){
+          $('.model_ls600h_1 strong').css('opacity', '1')
+        }
+
+        if(st > 100 ){
+          $('.model_ls600h_1 lstext_1 p').css('opacity', '0')
+      }else if(st <= 100 ){
+          $('.model_ls600h_1 lstext_1 p').css('opacity', '1')
+        }
+
+        // lsbg_2 부분
+        if(st > 800 ){
+          $('.lstext_2 h4').css('opacity', '0')
+      }else if(st <= 800 ){
+          $('.lstext_2 h4').css('opacity', '1')
+        }
+
+        if(st > 800 ){
+          $('.lstext_2 p').css('opacity', '0')
+      }else if(st <= 800 ){
+          $('.lstext_2 p').css('opacity', '1')
+        }
+
+        // lsbg_3 부분
+        if(st > 1700 ){
+          $('.lstext_3 h4').css('opacity', '0')
+      }else if(st <= 1700 ){
+          $('.lstext_3 h4').css('opacity', '1')
+        }
+
+        if(st > 1700 ){
+          $('.lstext_3 p').css('opacity', '0')
+      }else if(st <= 1700 ){
+          $('.lstext_3 p').css('opacity', '1')
+        }
+
+        // lsbg_4 부분
+        if(st > 2400 ){
+          $('.lstext_4 h4').css('opacity', '0')
+      }else if(st <= 2400 ){
+          $('.lstext_4 h4').css('opacity', '1')
+        }
+
+        if(st > 2400 ){
+          $('.lstext_4 p').css('opacity', '0')
+      }else if(st <= 2400 ){
+          $('.lstext_4 p').css('opacity', '1')
+        }
+
+
+
+
+    });
+
+})
+
+  //팝업
+  $('.model_ls600h_2_content ul li a span').click(function(){
+        $('.blind').css({
+          "display":"block"
+        });
+        $('.popup_wrap').css({
+          "display":"block"
+        });
+
+        $('.close_btn').click(function(){
+          $('.blind').css({
+            "display":"none"
+          });
+          $('.popup_wrap').css({
+            "display":"none"
+          });
+    });
+
+    });
+
+    var idx=0;
+
+
+    function motion3(start, end, i){
+        $('.slide li').eq(i).addClass('on').css({
+            left:start,
+            'display':'block'
+        }).stop().animate({
+            left:end
+        }).siblings().removeClass('on').css('display','none');
+
+        if(idx == $('.slide li').length){
+            idx = 0
+            motion3('100%',0,idx);
+        }else if( idx < 0){
+            idx = $('.slide li').length-1;
+            motion3('-100%',0,idx);
+        }
+    }
+    $('.slide li').eq(0).css('display','block');
+
+    $('.popup_btn a.next').click(function(){
+        idx = $('.slide li.on').index();
+        motion3(0,'-100%',idx)
+        idx ++
+        motion3('100%',0,idx)
+    })
+
+    $('.popup_btn a.prev').click(function(){
+        idx = $('.slide li.on').index();
+        motion3(0,'100%',idx)
+        idx --
+        motion3('-100%',0,idx)
+    })
+
+
+
 
 
 
