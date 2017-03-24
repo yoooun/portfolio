@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//
+//1번째섹션 화살표
   $('.model_ls600h_1_1 .btn-next-arr').on('click',function(){
       $('html,body').animate({scrollTop:'0'+'950px'},930);
       console.log('123')
@@ -102,10 +102,10 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
     $(this).parent().children('span.lineToggle_pr').toggle()
   })
 //표 다음으로 넘어가기
-  $('.model_ls600h_6_cont_req ol li em').click(function(){
-    $(this).parent('label').parent('p').parent('li').parent('ul').parent('li').next('li').addclass('disblo').siblings().removeClass('disblo')
-    console.log('asas')
-  })
+  // $('.model_ls600h_6_cont_req ol li em').click(function(){
+  //   $(this).parent('label').parent('p').parent('li').parent('ul').parent('li').next('li').addclass('disblo').siblings().removeClass('disblo')
+  //   console.log('asas')
+  // })
 
 
   //count
@@ -142,17 +142,20 @@ $('.model_ls600h_6_cont_req ol li a').click(function(){
 // });
 // });
 
-//section6_btn 클릭
-  $('.model_ls600h_6_cont_req ul li em').click(function(){
-    $(this).toggleClass('aft')
-    console.log("aa")
-  })
 
-
+//section5_btn 클릭
   $('.model_ls600h_5_cont_price em').click(function(){
     $(this).toggleClass('aft')
     console.log("aa")
   })
+
+//section6_btn 클릭
+  $('.model_ls600h_6_cont_req em').click(function(){
+    $(this).toggleClass('aft')
+    console.log("aa")
+  })
+
+
 
 
 

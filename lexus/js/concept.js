@@ -53,15 +53,10 @@ $(function(){
             return
         }
     });
-    // 자동차 종류 바뀜
-    // 네비 li
-      $('.navi_tabs_wrap').on('click','li a',function(){
-        var nav_conc = $(this).parent().index();
-        console.log('asdasd')
-        imgChange(nav_conc);
-      })
-      function imgChange(i){
-        $('.concept_2 figure').children('ul').children('li').eq(i).addClass('pic_con').siblings().removeClass('pic_con')
-      }
-      console.log('qwer')
+
+    //1번째섹션 화살표
+      $('.con1_txt .btn-next-arr').on('click',function(){
+          $('html,body').animate({scrollTop:'0'+'950px'},930);
+          console.log('123')
+      });
 });

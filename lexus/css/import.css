@@ -734,6 +734,24 @@ aside div li {
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
   padding-left: 6px;
 }
+#submit .submit_1 .submit_1_cont div ol li ul li em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li ul li em {
+  background-image: url('../images/btn_group.png');
+  background-position: -132px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
 #submit .submit_1 .submit_1_cont div ol li .psinfo {
   padding-top: 30px;
   height: auto;
@@ -1097,6 +1115,15 @@ aside div li {
   display: inline-block;
   margin-left: -29px;
 }
+#submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label em {
   background-image: url('../images/btn_group.png');
   background-position: -132px -99px;
@@ -1108,6 +1135,24 @@ aside div li {
 }
 #submit .submit_1 .submit_1_cont div ol li ul.content-area > li ul li p label span {
   padding-left: 6px;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.emBtn li em.aft {
+  background-image: url('../images/btn_group.png');
+  background-position: -152px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#submit .submit_1 .submit_1_cont div ol li ul.emBtn li em {
+  background-image: url('../images/btn_group.png');
+  background-position: -132px -99px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
 }
 #submit .submit_1 .submit_1_cont div .checkzone {
   width: 300px;
@@ -1238,9 +1283,9 @@ aside div li {
   background-image: url('../images/models/models/mi/ls600h_mi1_bg.jpg');
   width: 100%;
   height: 100%;
-  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_1 .lstext_1 {
   position: absolute;
@@ -1260,7 +1305,7 @@ aside div li {
   background-image: url('../images/models/models/mi/ls600h_mi1_title2.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: -70px;
+  top: 50px;
   left: -10px;
   width: 240px;
   height: 100%;
@@ -1270,7 +1315,7 @@ aside div li {
   background-image: url('../images/models/models/mi/ls600h_mi1_title3.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 0;
+  top: 110px;
   left: -11px;
   width: 341px;
   height: 100%;
@@ -1280,7 +1325,7 @@ aside div li {
   background-image: url('../images/models/models/mi/ls600h_mi1_title4.png');
   background-repeat: no-repeat;
   position: absolute;
-  top: 40px;
+  top: 150px;
   left: -11px;
   width: 316px;
   height: 100%;
@@ -1298,6 +1343,7 @@ aside div li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
+  background-attachment: fixed;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_2 .lstext_2 h4 {
   position: absolute;
@@ -1327,6 +1373,7 @@ aside div li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
+  background-attachment: fixed;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_3 .lstext_3 h4 {
   position: absolute;
@@ -1356,6 +1403,7 @@ aside div li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
+  background-attachment: fixed;
 }
 .model_ls600h .model_ls600h_1 .model_ls600h_1_4 .lstext_4 h4 {
   position: absolute;
@@ -1530,27 +1578,27 @@ aside div li {
   padding: 2px 0;
   color: #333;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .next {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .next {
   float: right;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .next .next_btn {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .next .next_btn {
   right: 0;
   background-position: -51px -193px;
   background-image: url('../images/models/models/cp/btn_group.png');
   background-repeat: no-repeat;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .next span {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .next span {
   padding-right: 12px;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .prev {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .prev {
   float: left;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .prev .prev_btn {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .prev .prev_btn {
   background-position: 0 -193px;
   background-image: url('../images/models/models/cp/btn_group.png');
   background-repeat: no-repeat;
 }
-.model_ls600h .popup_wrap .popup_content .popup_btn .prev span {
+.model_ls600h .popup_wrap .popup_content .popup_btn span .prev span {
   padding-left: 12px;
 }
 .model_ls600h .popup_wrap .popup_content .popup_btn a {
@@ -2607,6 +2655,17 @@ aside div li {
 #concept .concept_1 figure.con_cont_1 .con1_txt p img {
   width: 100%;
 }
+#concept .concept_1 figure.con_cont_1 .con1_txt .btn-next-arr {
+  position: absolute;
+  bottom: 30px;
+  left: 49%;
+  display: block;
+  text-indent: -9999px;
+  font-size: 0;
+  width: 34px;
+  height: 60px;
+  background: url('../images/models/models/btn-next-arr.png') 0 0 no-repeat;
+}
 #concept .concept_2 {
   width: 100%;
   height: 802px;
@@ -2654,6 +2713,22 @@ aside div li {
   z-index: 1;
   width: 1600px;
   height: 710px;
+}
+#concept .concept_2 .concept_2_txt {
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 400px;
+}
+#concept .concept_2 .concept_2_txt cite {
+  width: 780px;
+  height: 99px;
+}
+#concept .concept_2 .concept_2_txt p {
+  position: absolute;
+  top: 80px;
+  left: 372px;
 }
 #concept .concept_2 .slide_bttom_btn {
   height: auto;

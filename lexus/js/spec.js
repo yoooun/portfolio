@@ -18,4 +18,15 @@ $(document).ready(function(){
       $(this).children('cite').toggleClass('color0')
     })
 
+  //(1)btn 클릭
+    $('.submit_1_cont ul.content-area em').click(function(){
+      $(this).toggleClass('aft')
+      console.log("aa")
+    })
+  //(2)btn 클릭
+    $('.submit_1_cont ul.emBtn li em').click(function(){
+      $(this).toggleClass('aft')
+      console.log("bb")
+    })
+
 });

@@ -25,17 +25,11 @@ $(document).ready(function(){
       $(this).removeClass('bef').addClass('aft')
       console.log("aa")
     })
-    //그 외 btn 클릭
-      // $('ul.emBtn em').click(function(){
-      //   $(this).addClass('aft').removeClass('bef')
-      //   console.log("bb")
-      // })
-
-
-      $('ul.emBtn em').click(function(){
-        $(this).toggleClass('aft')
-        console.log("bb")
-      })
+  //그 외 btn 클릭
+    $('ul.emBtn li em').click(function(){
+      $(this).toggleClass('aft')
+      console.log("bb")
+    })
 
 
     //표 다음으로 넘어가기
